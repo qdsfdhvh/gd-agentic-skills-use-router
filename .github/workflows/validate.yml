@@ -1,0 +1,23 @@
+name: Validate router
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: git -C upstream/gd-agentic-skills fetch --tags origin
+      - run: npm run generate && npm run validate && npm test
+      - name: Generated output is committed
+        run: |
+          git diff --exit-code -- skills/
+          test -z "$(git ls-files --others --exclude-standard skills/)"

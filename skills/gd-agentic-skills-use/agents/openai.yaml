@@ -1,0 +1,4 @@
+interface:
+  display_name: "GD Agentic Skills Use"
+  short_description: "Route Godot tasks to focused skill references"
+  default_prompt: "Use $gd-agentic-skills-use to select the relevant Godot guidance for this task."

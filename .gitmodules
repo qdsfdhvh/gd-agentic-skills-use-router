@@ -1,0 +1,3 @@
+[submodule "upstream/gd-agentic-skills"]
+	path = upstream/gd-agentic-skills
+	url = https://github.com/thedivergentai/GD-Agentic-Skills.git
