@@ -42,6 +42,14 @@ skills/gd-agentic-skills-use/
 
 `godot-master` 的镜像文档与脚本保留，因为其相对路径与独立技能不同。许可证保留在 `UPSTREAM-LICENSE`，修改说明在 `UPSTREAM.md`。复制这些文档不代表已验证其中所有 Godot API 或运行脚本；使用时按项目实际引擎版本和依赖选择。
 
+## 从 GitHub 安装
+
+```bash
+npx -y skills add https://github.com/qdsfdhvh/gd-agentic-skills-use-router/tree/main/skills/gd-agentic-skills-use -g
+```
+
+安装目标是 `skills/gd-agentic-skills-use`，仓库根目录用于维护生成器。
+
 ## 本地安装
 
 在本仓库运行：
@@ -74,4 +82,4 @@ npm test
 
 也可以 checkout 指定提交或标签。生成版本包含 router 版本和上游 revision；完整 SHA 记录在 manifest，支持没有标签的上游。修改 router 行为时同步增加 `package.json` 版本，再生成。
 
-生成产物与子模块指针应一起提交。发布到 GitHub 后，`update-skills.yml` 每日检查上游 main 并在校验通过后提交到仓库默认分支；需要 Actions 的 contents write 权限及允许该分支推送。`validate.yml` 检查生成结果是否已提交。本地仓库尚未配置远程，因此定时更新要在发布后才会运行。
+生成产物与子模块指针应一起提交。发布到 GitHub 后，`update-skills.yml` 每日检查上游 main 并在校验通过后提交到仓库默认分支；需要 Actions 的 contents write 权限及允许该分支推送。`validate.yml` 检查生成结果是否已提交。仓库地址：https://github.com/qdsfdhvh/gd-agentic-skills-use-router。
