@@ -1,7 +1,7 @@
 {
   "source": "https://github.com/thedivergentai/GD-Agentic-Skills",
   "commit": "4c4d0ff5c4597938cc9257d99d9e35f7692c9c06",
-  "version": "0.1.0+upstream.4c4d0ff",
+  "version": "0.1.1+upstream.4c4d0ff",
   "skills": [
     "godot-2d-animation",
     "godot-2d-physics",

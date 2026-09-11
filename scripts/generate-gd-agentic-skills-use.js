@@ -87,7 +87,7 @@ function generate(source, output, template) {
     const rows=names.map(n=> {
       const original=fs.readFileSync(path.join(source,n,'SKILL.md'),'utf8');
       const raw=original.match(/^description:\s*(.*)$/m)?.[1] || n;
-      const summary=raw.replace(/^["']|["']$/g,'').split(/(?<=\.)\s/)[0].replaceAll('|','\\|');
+      const summary=raw.replace(/^["']|["']$/g,'').split(/(?<=\.)\s/)[0].replace(/^Expert patterns for /, '').replaceAll('|','\\|');
       return `| [${n}](${n}/DOC.md) | ${summary} |`;
     });
     fs.writeFileSync(path.join(stage,'references/index.md'),`# Godot skill index\n\nChoose the topic matching the current task, then read only its document. Broad tasks start with [godot-master](godot-master/DOC.md).\n\n| Document | Focus |\n| --- | --- |\n${rows.join('\n')}\n`);

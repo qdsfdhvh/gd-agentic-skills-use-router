@@ -4,7 +4,7 @@ Source: https://github.com/thedivergentai/GD-Agentic-Skills
 
 Commit: 4c4d0ff5c4597938cc9257d99d9e35f7692c9c06
 
-Router version: 0.1.0
+Router version: 0.1.1
 
 Upstream license: see [UPSTREAM-LICENSE](UPSTREAM-LICENSE).
 
