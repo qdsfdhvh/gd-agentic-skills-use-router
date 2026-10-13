@@ -2,7 +2,7 @@
 name: gd-agentic-skills-use
 description: "Use when implementing, debugging, reviewing, or planning Godot/GDScript projects, or handling Godot testing, performance, export, and engine migration."
 metadata:
-  version: "0.1.1+upstream.1d7ad8d"
+  version: "0.1.1+upstream.eca389a"
 ---
 
 # GD Agentic Skills Use

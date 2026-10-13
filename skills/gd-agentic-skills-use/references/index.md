@@ -4,34 +4,34 @@ Choose the topic matching the current task, then read only its document. Broad t
 
 | Document | Focus |
 | --- | --- |
-| [bevy-2d-animation](bevy-2d-animation/DOC.md) | Docs-first stub for Bevy 2D sprite animation. |
-| [bevy-3d-lighting](bevy-3d-lighting/DOC.md) | Docs-first stub for Bevy 3D lights. |
-| [bevy-3d-materials](bevy-3d-materials/DOC.md) | Docs-first stub for Bevy PBR materials. |
-| [bevy-3d-world-building](bevy-3d-world-building/DOC.md) | Docs-first stub for Bevy 3D level assembly. |
-| [bevy-ability-system](bevy-ability-system/DOC.md) | Docs-first stub for Bevy abilities. |
-| [bevy-adapt-2d-to-3d](bevy-adapt-2d-to-3d/DOC.md) | Docs-first stub for moving a Bevy game from 2D to 3D. |
-| [bevy-adapt-3d-to-2d](bevy-adapt-3d-to-2d/DOC.md) | Docs-first stub for moving a Bevy game from 3D to 2D. |
-| [bevy-adapt-desktop-to-mobile](bevy-adapt-desktop-to-mobile/DOC.md) | Docs-first stub for adapting a Bevy desktop game to mobile. |
-| [bevy-adapt-mobile-to-desktop](bevy-adapt-mobile-to-desktop/DOC.md) | Docs-first stub for adapting a Bevy mobile game to desktop. |
-| [bevy-ai-navigation](bevy-ai-navigation/DOC.md) | Docs-first stub for Bevy AI navigation policy. |
-| [bevy-animation](bevy-animation/DOC.md) | Docs-first stub for Bevy animation playback. |
-| [bevy-animation-graph](bevy-animation-graph/DOC.md) | Docs-first stub for Bevy animation blending. |
-| [bevy-app-resources](bevy-app-resources/DOC.md) | Docs-first stub for Bevy app-wide resources and schedules. |
-| [bevy-asset-scenes](bevy-asset-scenes/DOC.md) | Docs-first stub for Bevy assets and scene spawning. |
-| [bevy-audio-systems](bevy-audio-systems/DOC.md) | Docs-first stub for Bevy audio playback. |
-| [bevy-camera-systems](bevy-camera-systems/DOC.md) | Docs-first stub for Bevy cameras. |
-| [bevy-character-movement](bevy-character-movement/DOC.md) | Docs-first stub for Bevy character movement. |
-| [bevy-combat-system](bevy-combat-system/DOC.md) | Docs-first stub for Bevy combat. |
-| [bevy-data-resources](bevy-data-resources/DOC.md) | Docs-first stub for Bevy components and resources as data. |
-| [bevy-debugging-profiling](bevy-debugging-profiling/DOC.md) | Docs-first stub for Bevy logs and diagnostics. |
-| [bevy-dialogue-system](bevy-dialogue-system/DOC.md) | Docs-first stub for Bevy dialogue. |
-| [bevy-economy-system](bevy-economy-system/DOC.md) | Docs-first stub for Bevy currency and prices. |
-| [bevy-ecs-composition](bevy-ecs-composition/DOC.md) | Docs-first stub for Bevy entity composition. |
-| [bevy-events-messaging](bevy-events-messaging/DOC.md) | Docs-first stub for Bevy messages and observers. |
-| [bevy-game-loop-collection](bevy-game-loop-collection/DOC.md) | Docs-first stub for a Bevy collection loop. |
-| [bevy-game-loop-harvest](bevy-game-loop-harvest/DOC.md) | Docs-first stub for a Bevy harvest loop. |
-| [bevy-game-loop-time-trial](bevy-game-loop-time-trial/DOC.md) | Docs-first stub for a Bevy time trial. |
-| [bevy-game-loop-waves](bevy-game-loop-waves/DOC.md) | Docs-first stub for Bevy encounter waves. |
+| [bevy-2d-animation](bevy-2d-animation/DOC.md) | Bevy ECS skill for 2D sprite animation. |
+| [bevy-3d-lighting](bevy-3d-lighting/DOC.md) | Bevy ECS skill for 3D lights. |
+| [bevy-3d-materials](bevy-3d-materials/DOC.md) | Bevy ECS skill for PBR materials. |
+| [bevy-3d-world-building](bevy-3d-world-building/DOC.md) | Bevy ECS skill for 3D level assembly. |
+| [bevy-ability-system](bevy-ability-system/DOC.md) | Bevy ECS skill for abilities. |
+| [bevy-adapt-2d-to-3d](bevy-adapt-2d-to-3d/DOC.md) | Bevy ECS skill for moving a Bevy game from 2D to 3D. |
+| [bevy-adapt-3d-to-2d](bevy-adapt-3d-to-2d/DOC.md) | Bevy ECS skill for moving a Bevy game from 3D to 2D. |
+| [bevy-adapt-desktop-to-mobile](bevy-adapt-desktop-to-mobile/DOC.md) | Bevy ECS skill for adapting a Bevy desktop game to mobile. |
+| [bevy-adapt-mobile-to-desktop](bevy-adapt-mobile-to-desktop/DOC.md) | Bevy ECS skill for adapting a Bevy mobile game to desktop. |
+| [bevy-ai-navigation](bevy-ai-navigation/DOC.md) | Bevy ECS skill for AI navigation policy. |
+| [bevy-animation](bevy-animation/DOC.md) | Bevy ECS skill for animation playback. |
+| [bevy-animation-graph](bevy-animation-graph/DOC.md) | Bevy ECS skill for animation blending. |
+| [bevy-app-resources](bevy-app-resources/DOC.md) | Bevy ECS skill for app-wide resources and schedules. |
+| [bevy-asset-scenes](bevy-asset-scenes/DOC.md) | Bevy ECS skill for assets and scene spawning. |
+| [bevy-audio-systems](bevy-audio-systems/DOC.md) | Bevy ECS skill for audio playback. |
+| [bevy-camera-systems](bevy-camera-systems/DOC.md) | Bevy ECS skill for cameras. |
+| [bevy-character-movement](bevy-character-movement/DOC.md) | Bevy ECS skill for character movement. |
+| [bevy-combat-system](bevy-combat-system/DOC.md) | Bevy ECS skill for combat. |
+| [bevy-data-resources](bevy-data-resources/DOC.md) | Bevy ECS skill for components and resources as data. |
+| [bevy-debugging-profiling](bevy-debugging-profiling/DOC.md) | Bevy ECS skill for logs and diagnostics. |
+| [bevy-dialogue-system](bevy-dialogue-system/DOC.md) | Bevy ECS skill for dialogue. |
+| [bevy-economy-system](bevy-economy-system/DOC.md) | Bevy ECS skill for currency and prices. |
+| [bevy-ecs-composition](bevy-ecs-composition/DOC.md) | Bevy ECS skill for entity composition. |
+| [bevy-events-messaging](bevy-events-messaging/DOC.md) | Bevy ECS skill for messages and observers. |
+| [bevy-game-loop-collection](bevy-game-loop-collection/DOC.md) | Bevy ECS skill for a Bevy collection loop. |
+| [bevy-game-loop-harvest](bevy-game-loop-harvest/DOC.md) | Bevy ECS skill for a Bevy harvest loop. |
+| [bevy-game-loop-time-trial](bevy-game-loop-time-trial/DOC.md) | Bevy ECS skill for a Bevy time trial. |
+| [bevy-game-loop-waves](bevy-game-loop-waves/DOC.md) | Bevy ECS skill for encounter waves. |
 | [bevy-genre-action-rpg](bevy-genre-action-rpg/DOC.md) | Thin Bevy genre router for Action RPG. |
 | [bevy-genre-card-game](bevy-genre-card-game/DOC.md) | Thin Bevy genre router for Card game. |
 | [bevy-genre-educational](bevy-genre-educational/DOC.md) | Thin Bevy genre router for Educational. |
@@ -57,35 +57,35 @@ Choose the topic matching the current task, then read only its document. Broad t
 | [bevy-genre-survival](bevy-genre-survival/DOC.md) | Thin Bevy genre router for Survival. |
 | [bevy-genre-tower-defense](bevy-genre-tower-defense/DOC.md) | Thin Bevy genre router for Tower defense. |
 | [bevy-genre-visual-novel](bevy-genre-visual-novel/DOC.md) | Thin Bevy genre router for Visual novel. |
-| [bevy-input-handling](bevy-input-handling/DOC.md) | Docs-first stub for Bevy player input. |
-| [bevy-inventory-system](bevy-inventory-system/DOC.md) | Docs-first stub for Bevy inventories. |
-| [bevy-master](bevy-master/DOC.md) | Bevy ECS hub for this library. |
-| [bevy-mechanic-revival](bevy-mechanic-revival/DOC.md) | Docs-first stub for a Bevy downed and revival loop. |
-| [bevy-mechanic-secrets](bevy-mechanic-secrets/DOC.md) | Docs-first stub for Bevy secrets and discovery flags. |
-| [bevy-navigation](bevy-navigation/DOC.md) | Docs-first stub for Bevy navigation. |
-| [bevy-particles](bevy-particles/DOC.md) | Docs-first stub for Bevy particle effects. |
-| [bevy-performance](bevy-performance/DOC.md) | Docs-first stub for Bevy runtime cost. |
-| [bevy-physics-2d](bevy-physics-2d/DOC.md) | Docs-first stub for Bevy 2D physics. |
-| [bevy-physics-3d](bevy-physics-3d/DOC.md) | Docs-first stub for Bevy 3D physics. |
-| [bevy-platform-desktop](bevy-platform-desktop/DOC.md) | Docs-first stub for Bevy desktop windows. |
-| [bevy-platform-mobile](bevy-platform-mobile/DOC.md) | Docs-first stub for Bevy mobile. |
-| [bevy-platform-web](bevy-platform-web/DOC.md) | Docs-first stub for Bevy web and Wasm. |
-| [bevy-procedural-generation](bevy-procedural-generation/DOC.md) | Docs-first stub for Bevy procedural generation. |
-| [bevy-project-foundations](bevy-project-foundations/DOC.md) | Docs-first stub for a Bevy Rust project layout. |
-| [bevy-project-templates](bevy-project-templates/DOC.md) | Docs-first stub for Bevy project templates. |
-| [bevy-quest-system](bevy-quest-system/DOC.md) | Docs-first stub for Bevy quests. |
-| [bevy-rpg-stats](bevy-rpg-stats/DOC.md) | Docs-first stub for Bevy character stats. |
-| [bevy-save-load](bevy-save-load/DOC.md) | Docs-first stub for Bevy persistence boundaries. |
-| [bevy-shaders](bevy-shaders/DOC.md) | Docs-first stub for Bevy shaders. |
-| [bevy-spatial-queries](bevy-spatial-queries/DOC.md) | Docs-first stub for Bevy spatial queries. |
-| [bevy-state-machines](bevy-state-machines/DOC.md) | Docs-first stub for Bevy app states and per-entity state data. |
-| [bevy-testing-patterns](bevy-testing-patterns/DOC.md) | Docs-first stub for Cargo tests around Bevy work. |
-| [bevy-tilemap](bevy-tilemap/DOC.md) | Docs-first stub for Bevy tile maps. |
-| [bevy-turn-system](bevy-turn-system/DOC.md) | Docs-first stub for Bevy turn order. |
-| [bevy-tweening](bevy-tweening/DOC.md) | Docs-first stub for Bevy tween and juice. |
-| [bevy-ui-layout](bevy-ui-layout/DOC.md) | Docs-first stub for Bevy UI layout. |
-| [bevy-ui-text](bevy-ui-text/DOC.md) | Docs-first stub for Bevy UI text. |
-| [bevy-ui-theming](bevy-ui-theming/DOC.md) | Docs-first stub for Bevy UI theming. |
+| [bevy-input-handling](bevy-input-handling/DOC.md) | Bevy ECS skill for player input. |
+| [bevy-inventory-system](bevy-inventory-system/DOC.md) | Bevy ECS skill for inventories. |
+| [bevy-master](bevy-master/DOC.md) | Bevy ECS hub for Bevy 0.20+. |
+| [bevy-mechanic-revival](bevy-mechanic-revival/DOC.md) | Bevy ECS skill for a Bevy downed and revival loop. |
+| [bevy-mechanic-secrets](bevy-mechanic-secrets/DOC.md) | Bevy ECS skill for secrets and discovery flags. |
+| [bevy-navigation](bevy-navigation/DOC.md) | Bevy ECS skill for navigation. |
+| [bevy-particles](bevy-particles/DOC.md) | Bevy ECS skill for particle effects. |
+| [bevy-performance](bevy-performance/DOC.md) | Bevy ECS skill for runtime cost. |
+| [bevy-physics-2d](bevy-physics-2d/DOC.md) | Bevy ECS skill for 2D physics. |
+| [bevy-physics-3d](bevy-physics-3d/DOC.md) | Bevy ECS skill for 3D physics. |
+| [bevy-platform-desktop](bevy-platform-desktop/DOC.md) | Bevy ECS skill for desktop windows. |
+| [bevy-platform-mobile](bevy-platform-mobile/DOC.md) | Bevy ECS skill for mobile. |
+| [bevy-platform-web](bevy-platform-web/DOC.md) | Bevy ECS skill for web and Wasm. |
+| [bevy-procedural-generation](bevy-procedural-generation/DOC.md) | Bevy ECS skill for procedural generation. |
+| [bevy-project-foundations](bevy-project-foundations/DOC.md) | Bevy ECS skill for a Bevy Rust project layout. |
+| [bevy-project-templates](bevy-project-templates/DOC.md) | Bevy ECS skill for project templates. |
+| [bevy-quest-system](bevy-quest-system/DOC.md) | Bevy ECS skill for quests. |
+| [bevy-rpg-stats](bevy-rpg-stats/DOC.md) | Bevy ECS skill for character stats. |
+| [bevy-save-load](bevy-save-load/DOC.md) | Bevy ECS skill for persistence boundaries. |
+| [bevy-shaders](bevy-shaders/DOC.md) | Bevy ECS skill for shaders. |
+| [bevy-spatial-queries](bevy-spatial-queries/DOC.md) | Bevy ECS skill for spatial queries. |
+| [bevy-state-machines](bevy-state-machines/DOC.md) | Bevy ECS skill for app states and per-entity state data. |
+| [bevy-testing-patterns](bevy-testing-patterns/DOC.md) | Bevy ECS skill for Cargo tests around Bevy work. |
+| [bevy-tilemap](bevy-tilemap/DOC.md) | Bevy ECS skill for tile maps. |
+| [bevy-turn-system](bevy-turn-system/DOC.md) | Bevy ECS skill for turn order. |
+| [bevy-tweening](bevy-tweening/DOC.md) | Bevy ECS skill for tween and juice. |
+| [bevy-ui-layout](bevy-ui-layout/DOC.md) | Bevy ECS skill for UI layout. |
+| [bevy-ui-text](bevy-ui-text/DOC.md) | Bevy ECS skill for UI text. |
+| [bevy-ui-theming](bevy-ui-theming/DOC.md) | Bevy ECS skill for UI theming. |
 | [godot-2d-animation](godot-2d-animation/DOC.md) | 2D animation in Godot using AnimatedSprite2D and skeletal cutout rigs. |
 | [godot-2d-physics](godot-2d-physics/DOC.md) | Godot 2D physics including collision layers/masks, Area2D triggers, raycasting, and PhysicsDirectSpaceState2D queries. |
 | [godot-3d-lighting](godot-3d-lighting/DOC.md) | Godot 3D lighting including DirectionalLight3D shadow cascades, OmniLight3D attenuation, SpotLight3D projectors, VoxelGI vs SDFGI, and LightmapGI baking. |

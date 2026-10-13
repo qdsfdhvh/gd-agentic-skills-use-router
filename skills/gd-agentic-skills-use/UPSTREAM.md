@@ -2,7 +2,7 @@
 
 Source: https://github.com/thedivergentai/GD-Agentic-Skills
 
-Commit: 1d7ad8d2592badf5f29defd6317a4b91e4c822c9
+Commit: eca389a58929b6624d5af1e857de4b76827b8802
 
 Router version: 0.1.1
 
