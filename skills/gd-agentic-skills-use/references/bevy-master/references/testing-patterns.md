@@ -82,14 +82,14 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Who owns which piece of state.
-- [bevy-project-foundations](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-project-foundations/DOC.md)  -  The Cargo package `cargo test` runs against.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Who owns which piece of state.
+- [bevy-project-foundations](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-project-foundations/DOC.md)  -  The Cargo package `cargo test` runs against.
 
 #### Complements
-- [godot-testing-patterns](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-testing-patterns/DOC.md)  -  Godot counterpart. GdUnit stays there.
+- [godot-testing-patterns](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-testing-patterns/DOC.md)  -  Godot counterpart. GdUnit stays there.
 
 #### Downstream / consumers
 - None yet.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.

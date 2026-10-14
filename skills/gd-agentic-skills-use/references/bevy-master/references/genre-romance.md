@@ -24,9 +24,9 @@ Load this for relationship values and scene routes on top of dialogue.
 
 ## Routing
 
-- [bevy-dialogue-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-dialogue-system/DOC.md) - Scenes.
-- [bevy-rpg-stats](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-rpg-stats/DOC.md) - Affection as a stat you name.
-- [bevy-save-load](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-save-load/DOC.md) - Route flags.
+- [bevy-dialogue-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-dialogue-system/DOC.md) - Scenes.
+- [bevy-rpg-stats](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-rpg-stats/DOC.md) - Affection as a stat you name.
+- [bevy-save-load](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-save-load/DOC.md) - Route flags.
 
 ## Scope
 
@@ -88,17 +88,17 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and schedules.
-- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn and query shape.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and schedules.
+- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn and query shape.
 
 #### Complements
-- [godot-genre-romance](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-genre-romance/DOC.md) - Equivalent Godot skill.
-- [bevy-dialogue-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-dialogue-system/DOC.md) - Scenes.
-- [bevy-rpg-stats](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-rpg-stats/DOC.md) - Affection as a stat you name.
-- [bevy-save-load](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-save-load/DOC.md) - Route flags.
+- [godot-genre-romance](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-genre-romance/DOC.md) - Equivalent Godot skill.
+- [bevy-dialogue-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-dialogue-system/DOC.md) - Scenes.
+- [bevy-rpg-stats](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-rpg-stats/DOC.md) - Affection as a stat you name.
+- [bevy-save-load](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-save-load/DOC.md) - Route flags.
 
 #### Downstream / consumers
 - None. This router does not own a second implementation.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.

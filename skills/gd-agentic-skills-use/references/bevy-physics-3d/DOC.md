@@ -81,14 +81,14 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  ECS ownership and the fixed-timestep schedule names.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  ECS ownership and the fixed-timestep schedule names.
 
 #### Complements
-- [bevy-character-movement](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md)  -  Player locomotion that should not be a rigid body.
-- [godot-physics-3d](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-physics-3d/DOC.md)  -  Equivalent Godot skill. Jolt, physical bones, and Godot joint types are not Bevy names.
+- [bevy-character-movement](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md)  -  Player locomotion that should not be a rigid body.
+- [godot-physics-3d](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-physics-3d/DOC.md)  -  Equivalent Godot skill. Jolt, physical bones, and Godot joint types are not Bevy names.
 
 #### Downstream / consumers
 - Combat, racing, and shooter skills cover hits, vehicles, and shots.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.

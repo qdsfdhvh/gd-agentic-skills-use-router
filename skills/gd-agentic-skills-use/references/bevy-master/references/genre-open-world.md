@@ -24,10 +24,10 @@ Load this for streaming regions and distant actors. Do not invent a world-partit
 
 ## Routing
 
-- [bevy-asset-scenes](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-asset-scenes/DOC.md) - Region scenes.
-- [bevy-3d-world-building](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-3d-world-building/DOC.md) - Assembly.
-- [bevy-ai-navigation](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ai-navigation/DOC.md) - Ambient actors.
-- [bevy-quest-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-quest-system/DOC.md) - Objectives.
+- [bevy-asset-scenes](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-asset-scenes/DOC.md) - Region scenes.
+- [bevy-3d-world-building](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-3d-world-building/DOC.md) - Assembly.
+- [bevy-ai-navigation](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ai-navigation/DOC.md) - Ambient actors.
+- [bevy-quest-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-quest-system/DOC.md) - Objectives.
 
 ## Scope
 
@@ -89,18 +89,18 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and schedules.
-- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn and query shape.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and schedules.
+- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn and query shape.
 
 #### Complements
-- [godot-genre-open-world](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-genre-open-world/DOC.md) - Equivalent Godot skill.
-- [bevy-asset-scenes](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-asset-scenes/DOC.md) - Region scenes.
-- [bevy-3d-world-building](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-3d-world-building/DOC.md) - Assembly.
-- [bevy-ai-navigation](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ai-navigation/DOC.md) - Ambient actors.
-- [bevy-quest-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-quest-system/DOC.md) - Objectives.
+- [godot-genre-open-world](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-genre-open-world/DOC.md) - Equivalent Godot skill.
+- [bevy-asset-scenes](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-asset-scenes/DOC.md) - Region scenes.
+- [bevy-3d-world-building](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-3d-world-building/DOC.md) - Assembly.
+- [bevy-ai-navigation](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ai-navigation/DOC.md) - Ambient actors.
+- [bevy-quest-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-quest-system/DOC.md) - Objectives.
 
 #### Downstream / consumers
 - None. This router does not own a second implementation.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.

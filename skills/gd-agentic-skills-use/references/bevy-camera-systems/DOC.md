@@ -83,16 +83,16 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Who owns which piece of state.
-- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md)  -  Spawn tuples and systems.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Who owns which piece of state.
+- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md)  -  Spawn tuples and systems.
 
 #### Complements
-- [bevy-input-handling](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-input-handling/DOC.md)  -  Mouse motion a camera system may read.
-- [bevy-character-movement](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md)  -  Actor the view may track.
-- [godot-camera-systems](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-camera-systems/DOC.md)  -  Equivalent Godot skill.
+- [bevy-input-handling](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-input-handling/DOC.md)  -  Mouse motion a camera system may read.
+- [bevy-character-movement](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md)  -  Actor the view may track.
+- [godot-camera-systems](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-camera-systems/DOC.md)  -  Equivalent Godot skill.
 
 #### Downstream / consumers
-- [bevy-asset-scenes](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-asset-scenes/DOC.md)  -  Scenes that include a camera entity.
+- [bevy-asset-scenes](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-asset-scenes/DOC.md)  -  Scenes that include a camera entity.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.

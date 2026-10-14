@@ -80,14 +80,14 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  ECS ownership, schedules, and which Bevy skill to load.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  ECS ownership, schedules, and which Bevy skill to load.
 
 #### Complements
-- [bevy-physics-3d](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-physics-3d/DOC.md)  -  Collision and physics solvers. Player motion stays in this skill.
-- [godot-characterbody-2d](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-characterbody-2d/DOC.md)  -  Equivalent Godot skill. Do not import Godot types.
+- [bevy-physics-3d](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-physics-3d/DOC.md)  -  Collision and physics solvers. Player motion stays in this skill.
+- [godot-characterbody-2d](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-characterbody-2d/DOC.md)  -  Equivalent Godot skill. Do not import Godot types.
 
 #### Downstream / consumers
 - Genre skills cover loop and encounter design.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.

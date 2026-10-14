@@ -24,10 +24,10 @@ Load this for run seeds, room generation, and permadeath flags.
 
 ## Routing
 
-- [bevy-procedural-generation](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-procedural-generation/DOC.md) - Seed and spawn.
-- [bevy-turn-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-turn-system/DOC.md) - Turn order when the run is turn-based.
-- [bevy-inventory-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-inventory-system/DOC.md) - Run loot.
-- [bevy-rpg-stats](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-rpg-stats/DOC.md) - Run stats.
+- [bevy-procedural-generation](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-procedural-generation/DOC.md) - Seed and spawn.
+- [bevy-turn-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-turn-system/DOC.md) - Turn order when the run is turn-based.
+- [bevy-inventory-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-inventory-system/DOC.md) - Run loot.
+- [bevy-rpg-stats](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-rpg-stats/DOC.md) - Run stats.
 
 ## Scope
 
@@ -89,18 +89,18 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and schedules.
-- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn and query shape.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and schedules.
+- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn and query shape.
 
 #### Complements
-- [godot-genre-roguelike](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-genre-roguelike/DOC.md) - Equivalent Godot skill.
-- [bevy-procedural-generation](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-procedural-generation/DOC.md) - Seed and spawn.
-- [bevy-turn-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-turn-system/DOC.md) - Turn order when the run is turn-based.
-- [bevy-inventory-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-inventory-system/DOC.md) - Run loot.
-- [bevy-rpg-stats](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-rpg-stats/DOC.md) - Run stats.
+- [godot-genre-roguelike](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-genre-roguelike/DOC.md) - Equivalent Godot skill.
+- [bevy-procedural-generation](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-procedural-generation/DOC.md) - Seed and spawn.
+- [bevy-turn-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-turn-system/DOC.md) - Turn order when the run is turn-based.
+- [bevy-inventory-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-inventory-system/DOC.md) - Run loot.
+- [bevy-rpg-stats](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-rpg-stats/DOC.md) - Run stats.
 
 #### Downstream / consumers
 - None. This router does not own a second implementation.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.

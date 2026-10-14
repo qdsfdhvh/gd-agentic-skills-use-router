@@ -24,10 +24,10 @@ Load this for vision cones you author and alert states.
 
 ## Routing
 
-- [bevy-ai-navigation](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ai-navigation/DOC.md) - Patrol.
-- [bevy-state-machines](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md) - Alert enum on the agent.
-- [bevy-3d-lighting](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-3d-lighting/DOC.md) - Readability of darkness.
-- [bevy-spatial-queries](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-spatial-queries/DOC.md) - Line of sight.
+- [bevy-ai-navigation](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ai-navigation/DOC.md) - Patrol.
+- [bevy-state-machines](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md) - Alert enum on the agent.
+- [bevy-3d-lighting](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-3d-lighting/DOC.md) - Readability of darkness.
+- [bevy-spatial-queries](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-spatial-queries/DOC.md) - Line of sight.
 
 ## Scope
 
@@ -90,18 +90,18 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and schedules.
-- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn and query shape.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and schedules.
+- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn and query shape.
 
 #### Complements
-- [godot-genre-stealth](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-genre-stealth/DOC.md) - Equivalent Godot skill.
-- [bevy-ai-navigation](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ai-navigation/DOC.md) - Patrol.
-- [bevy-state-machines](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md) - Alert enum on the agent.
-- [bevy-3d-lighting](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-3d-lighting/DOC.md) - Readability of darkness.
-- [bevy-spatial-queries](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-spatial-queries/DOC.md) - Line of sight.
+- [godot-genre-stealth](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-genre-stealth/DOC.md) - Equivalent Godot skill.
+- [bevy-ai-navigation](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ai-navigation/DOC.md) - Patrol.
+- [bevy-state-machines](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md) - Alert enum on the agent.
+- [bevy-3d-lighting](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-3d-lighting/DOC.md) - Readability of darkness.
+- [bevy-spatial-queries](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-spatial-queries/DOC.md) - Line of sight.
 
 #### Downstream / consumers
 - None. This router does not own a second implementation.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.

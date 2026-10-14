@@ -24,9 +24,9 @@ Load this for local minigame swaps and shared scores.
 
 ## Routing
 
-- [bevy-state-machines](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md) - Minigame mode.
-- [bevy-input-handling](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-input-handling/DOC.md) - Local devices. Gamepad exists.
-- [bevy-game-loop-time-trial](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-game-loop-time-trial/DOC.md) - When a minigame is timed.
+- [bevy-state-machines](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md) - Minigame mode.
+- [bevy-input-handling](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-input-handling/DOC.md) - Local devices. Gamepad exists.
+- [bevy-game-loop-time-trial](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-game-loop-time-trial/DOC.md) - When a minigame is timed.
 
 ## Scope
 
@@ -89,17 +89,17 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and schedules.
-- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn and query shape.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and schedules.
+- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn and query shape.
 
 #### Complements
-- [godot-genre-party](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-genre-party/DOC.md) - Equivalent Godot skill.
-- [bevy-state-machines](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md) - Minigame mode.
-- [bevy-input-handling](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-input-handling/DOC.md) - Local devices. Gamepad exists.
-- [bevy-game-loop-time-trial](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-game-loop-time-trial/DOC.md) - When a minigame is timed.
+- [godot-genre-party](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-genre-party/DOC.md) - Equivalent Godot skill.
+- [bevy-state-machines](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md) - Minigame mode.
+- [bevy-input-handling](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-input-handling/DOC.md) - Local devices. Gamepad exists.
+- [bevy-game-loop-time-trial](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-game-loop-time-trial/DOC.md) - When a minigame is timed.
 
 #### Downstream / consumers
 - None. This router does not own a second implementation.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.

@@ -86,15 +86,15 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Component versus resource ownership.
-- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md)  -  How components are spawned and queried.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Component versus resource ownership.
+- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md)  -  How components are spawned and queried.
 
 #### Complements
-- [bevy-app-resources](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-app-resources/DOC.md)  -  Schedules and plugins around those resources.
-- [godot-resource-data-patterns](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-resource-data-patterns/DOC.md)  -  Equivalent Godot skill. Do not import Godot types.
+- [bevy-app-resources](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-app-resources/DOC.md)  -  Schedules and plugins around those resources.
+- [godot-resource-data-patterns](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-resource-data-patterns/DOC.md)  -  Equivalent Godot skill. Do not import Godot types.
 
 #### Downstream / consumers
 - Inventory, stats, and save skills cover items, attributes, and persistence.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.

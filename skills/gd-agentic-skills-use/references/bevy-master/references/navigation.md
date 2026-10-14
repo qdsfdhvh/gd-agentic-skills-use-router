@@ -84,15 +84,15 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership.
-- [bevy-character-movement](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md) - How an actor moves once a waypoint exists.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership.
+- [bevy-character-movement](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md) - How an actor moves once a waypoint exists.
 
 #### Complements
-- [bevy-ai-navigation](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ai-navigation/DOC.md) - Chase, patrol, and retarget policy. Not the mesh.
-- [godot-navigation-pathfinding](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-navigation-pathfinding/DOC.md) - Equivalent Godot skill.
+- [bevy-ai-navigation](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ai-navigation/DOC.md) - Chase, patrol, and retarget policy. Not the mesh.
+- [godot-navigation-pathfinding](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-navigation-pathfinding/DOC.md) - Equivalent Godot skill.
 
 #### Downstream / consumers
 - Genre skills route chase, patrol, and similar policies.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.

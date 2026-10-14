@@ -85,16 +85,16 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Who owns which piece of state.
-- [bevy-project-foundations](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-project-foundations/DOC.md)  -  Crate and `App` shell.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Who owns which piece of state.
+- [bevy-project-foundations](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-project-foundations/DOC.md)  -  Crate and `App` shell.
 
 #### Complements
-- [bevy-data-resources](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-data-resources/DOC.md)  -  App-wide data that should not be a component.
-- [bevy-events-messaging](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-events-messaging/DOC.md)  -  Cross-system notices that are not a shared component.
-- [godot-composition](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-composition/DOC.md)  -  Equivalent Godot skill. Do not import Godot types.
+- [bevy-data-resources](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-data-resources/DOC.md)  -  App-wide data that should not be a component.
+- [bevy-events-messaging](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-events-messaging/DOC.md)  -  Cross-system notices that are not a shared component.
+- [godot-composition](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-composition/DOC.md)  -  Equivalent Godot skill. Do not import Godot types.
 
 #### Downstream / consumers
-- [bevy-character-movement](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md)  -  Movement components and systems on the fixed timestep.
+- [bevy-character-movement](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md)  -  Movement components and systems on the fixed timestep.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.

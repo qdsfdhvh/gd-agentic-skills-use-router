@@ -24,10 +24,10 @@ Load this for a first-person shooter route: 3D camera, view model, and combat.
 
 ## Routing
 
-- [bevy-camera-systems](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-camera-systems/DOC.md) - Camera3d.
-- [bevy-input-handling](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-input-handling/DOC.md) - Look. Cursor grab is only named on the window page.
-- [bevy-combat-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-combat-system/DOC.md) - Damage.
-- [bevy-3d-world-building](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-3d-world-building/DOC.md) - Arenas.
+- [bevy-camera-systems](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-camera-systems/DOC.md) - Camera3d.
+- [bevy-input-handling](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-input-handling/DOC.md) - Look. Cursor grab is only named on the window page.
+- [bevy-combat-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-combat-system/DOC.md) - Damage.
+- [bevy-3d-world-building](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-3d-world-building/DOC.md) - Arenas.
 
 ## Scope
 
@@ -90,18 +90,18 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and schedules.
-- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn and query shape.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and schedules.
+- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn and query shape.
 
 #### Complements
-- [godot-genre-shooter-fps](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-genre-shooter-fps/DOC.md) - Equivalent Godot skill.
-- [bevy-camera-systems](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-camera-systems/DOC.md) - Camera3d.
-- [bevy-input-handling](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-input-handling/DOC.md) - Look. Cursor grab is only named on the window page.
-- [bevy-combat-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-combat-system/DOC.md) - Damage.
-- [bevy-3d-world-building](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-3d-world-building/DOC.md) - Arenas.
+- [godot-genre-shooter-fps](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-genre-shooter-fps/DOC.md) - Equivalent Godot skill.
+- [bevy-camera-systems](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-camera-systems/DOC.md) - Camera3d.
+- [bevy-input-handling](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-input-handling/DOC.md) - Look. Cursor grab is only named on the window page.
+- [bevy-combat-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-combat-system/DOC.md) - Damage.
+- [bevy-3d-world-building](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-3d-world-building/DOC.md) - Arenas.
 
 #### Downstream / consumers
 - None. This router does not own a second implementation.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.

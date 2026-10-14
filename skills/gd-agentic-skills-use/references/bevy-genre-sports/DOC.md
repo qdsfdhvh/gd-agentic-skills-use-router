@@ -24,10 +24,10 @@ Load this for match clock, teams, and ball entities you define.
 
 ## Routing
 
-- [bevy-game-loop-time-trial](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-game-loop-time-trial/DOC.md) - Match clock.
-- [bevy-combat-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-combat-system/DOC.md) - Contact if the sport uses hits.
-- [bevy-character-movement](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md) - Athletes.
-- [bevy-state-machines](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md) - Period state.
+- [bevy-game-loop-time-trial](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-game-loop-time-trial/DOC.md) - Match clock.
+- [bevy-combat-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-combat-system/DOC.md) - Contact if the sport uses hits.
+- [bevy-character-movement](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md) - Athletes.
+- [bevy-state-machines](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md) - Period state.
 
 ## Scope
 
@@ -90,18 +90,18 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and schedules.
-- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn and query shape.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and schedules.
+- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn and query shape.
 
 #### Complements
-- [godot-genre-sports](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-genre-sports/DOC.md) - Equivalent Godot skill.
-- [bevy-game-loop-time-trial](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-game-loop-time-trial/DOC.md) - Match clock.
-- [bevy-combat-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-combat-system/DOC.md) - Contact if the sport uses hits.
-- [bevy-character-movement](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md) - Athletes.
-- [bevy-state-machines](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md) - Period state.
+- [godot-genre-sports](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-genre-sports/DOC.md) - Equivalent Godot skill.
+- [bevy-game-loop-time-trial](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-game-loop-time-trial/DOC.md) - Match clock.
+- [bevy-combat-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-combat-system/DOC.md) - Contact if the sport uses hits.
+- [bevy-character-movement](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md) - Athletes.
+- [bevy-state-machines](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md) - Period state.
 
 #### Downstream / consumers
 - None. This router does not own a second implementation.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.

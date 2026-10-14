@@ -87,17 +87,17 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Hub and schedules.
-- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Components and systems.
-- [bevy-3d-materials](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-3d-materials/DOC.md) - Lit surfaces.
-- [bevy-camera-systems](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-camera-systems/DOC.md) - Camera the lights affect.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Hub and schedules.
+- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Components and systems.
+- [bevy-3d-materials](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-3d-materials/DOC.md) - Lit surfaces.
+- [bevy-camera-systems](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-camera-systems/DOC.md) - Camera the lights affect.
 
 #### Complements
-- [bevy-3d-world-building](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-3d-world-building/DOC.md) - Place light entities in a level.
-- [godot-3d-lighting](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-3d-lighting/DOC.md) - Equivalent Godot skill.
+- [bevy-3d-world-building](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-3d-world-building/DOC.md) - Place light entities in a level.
+- [godot-3d-lighting](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-3d-lighting/DOC.md) - Equivalent Godot skill.
 
 #### Downstream / consumers
 - None yet.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.

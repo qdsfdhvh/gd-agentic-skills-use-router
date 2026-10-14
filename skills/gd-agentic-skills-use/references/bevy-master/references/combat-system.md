@@ -82,19 +82,19 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Hub and schedules.
-- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Components and systems.
-- [bevy-spatial-queries](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-spatial-queries/DOC.md) - Casts. Solver still unpicked.
-- [bevy-rpg-stats](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-rpg-stats/DOC.md) - Attack numbers.
-- [bevy-data-resources](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-data-resources/DOC.md) - Tables and definitions.
-- [bevy-events-messaging](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-events-messaging/DOC.md) - One-shot facts.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Hub and schedules.
+- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Components and systems.
+- [bevy-spatial-queries](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-spatial-queries/DOC.md) - Casts. Solver still unpicked.
+- [bevy-rpg-stats](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-rpg-stats/DOC.md) - Attack numbers.
+- [bevy-data-resources](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-data-resources/DOC.md) - Tables and definitions.
+- [bevy-events-messaging](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-events-messaging/DOC.md) - One-shot facts.
 
 #### Complements
-- [bevy-state-machines](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md) - Mode flags.
-- [godot-combat-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-combat-system/DOC.md) - Equivalent Godot skill.
+- [bevy-state-machines](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md) - Mode flags.
+- [godot-combat-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-combat-system/DOC.md) - Equivalent Godot skill.
 
 #### Downstream / consumers
 - None yet.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.

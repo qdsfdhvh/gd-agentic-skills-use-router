@@ -85,17 +85,17 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Hub and schedules.
-- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Components and systems.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Hub and schedules.
+- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Components and systems.
 
 #### Complements
-- [bevy-animation-graph](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-animation-graph/DOC.md) - Blend instead of a single clip.
-- [bevy-2d-animation](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-2d-animation/DOC.md) - Sprite targets.
-- [bevy-asset-scenes](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-asset-scenes/DOC.md) - Load clip assets.
-- [godot-animation-player](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-animation-player/DOC.md) - Equivalent Godot skill.
+- [bevy-animation-graph](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-animation-graph/DOC.md) - Blend instead of a single clip.
+- [bevy-2d-animation](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-2d-animation/DOC.md) - Sprite targets.
+- [bevy-asset-scenes](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-asset-scenes/DOC.md) - Load clip assets.
+- [godot-animation-player](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-animation-player/DOC.md) - Equivalent Godot skill.
 
 #### Downstream / consumers
-- [bevy-animation-graph](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-animation-graph/DOC.md) - Consumes clips.
+- [bevy-animation-graph](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-animation-graph/DOC.md) - Consumes clips.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.

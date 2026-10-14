@@ -24,12 +24,12 @@ Load this to route an action RPG: real-time hits, stats, inventory, and quests.
 
 ## Routing
 
-- [bevy-character-movement](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md) - Actor motion.
-- [bevy-combat-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-combat-system/DOC.md) - Hits.
-- [bevy-rpg-stats](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-rpg-stats/DOC.md) - Attributes.
-- [bevy-inventory-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-inventory-system/DOC.md) - Gear.
-- [bevy-quest-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-quest-system/DOC.md) - Objectives.
-- [bevy-ability-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ability-system/DOC.md) - Casts.
+- [bevy-character-movement](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md) - Actor motion.
+- [bevy-combat-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-combat-system/DOC.md) - Hits.
+- [bevy-rpg-stats](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-rpg-stats/DOC.md) - Attributes.
+- [bevy-inventory-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-inventory-system/DOC.md) - Gear.
+- [bevy-quest-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-quest-system/DOC.md) - Objectives.
+- [bevy-ability-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ability-system/DOC.md) - Casts.
 
 ## Scope
 
@@ -92,20 +92,20 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and schedules.
-- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn and query shape.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and schedules.
+- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn and query shape.
 
 #### Complements
-- [godot-genre-action-rpg](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-genre-action-rpg/DOC.md) - Equivalent Godot skill.
-- [bevy-character-movement](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md) - Actor motion.
-- [bevy-combat-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-combat-system/DOC.md) - Hits.
-- [bevy-rpg-stats](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-rpg-stats/DOC.md) - Attributes.
-- [bevy-inventory-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-inventory-system/DOC.md) - Gear.
-- [bevy-quest-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-quest-system/DOC.md) - Objectives.
-- [bevy-ability-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ability-system/DOC.md) - Casts.
+- [godot-genre-action-rpg](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-genre-action-rpg/DOC.md) - Equivalent Godot skill.
+- [bevy-character-movement](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md) - Actor motion.
+- [bevy-combat-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-combat-system/DOC.md) - Hits.
+- [bevy-rpg-stats](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-rpg-stats/DOC.md) - Attributes.
+- [bevy-inventory-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-inventory-system/DOC.md) - Gear.
+- [bevy-quest-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-quest-system/DOC.md) - Objectives.
+- [bevy-ability-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ability-system/DOC.md) - Casts.
 
 #### Downstream / consumers
 - None. This router does not own a second implementation.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.

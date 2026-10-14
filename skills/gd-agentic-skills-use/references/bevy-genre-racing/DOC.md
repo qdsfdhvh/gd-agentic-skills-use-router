@@ -24,9 +24,9 @@ Load this for laps, splits, and vehicle motion you own.
 
 ## Routing
 
-- [bevy-game-loop-time-trial](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-game-loop-time-trial/DOC.md) - Splits.
-- [bevy-character-movement](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md) - Stand-in motion until a vehicle solver exists.
-- [bevy-3d-world-building](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-3d-world-building/DOC.md) - Track.
+- [bevy-game-loop-time-trial](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-game-loop-time-trial/DOC.md) - Splits.
+- [bevy-character-movement](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md) - Stand-in motion until a vehicle solver exists.
+- [bevy-3d-world-building](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-3d-world-building/DOC.md) - Track.
 
 ## Scope
 
@@ -89,17 +89,17 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and schedules.
-- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn and query shape.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and schedules.
+- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn and query shape.
 
 #### Complements
-- [godot-genre-racing](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-genre-racing/DOC.md) - Equivalent Godot skill.
-- [bevy-game-loop-time-trial](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-game-loop-time-trial/DOC.md) - Splits.
-- [bevy-character-movement](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md) - Stand-in motion until a vehicle solver exists.
-- [bevy-3d-world-building](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-3d-world-building/DOC.md) - Track.
+- [godot-genre-racing](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-genre-racing/DOC.md) - Equivalent Godot skill.
+- [bevy-game-loop-time-trial](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-game-loop-time-trial/DOC.md) - Splits.
+- [bevy-character-movement](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md) - Stand-in motion until a vehicle solver exists.
+- [bevy-3d-world-building](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-3d-world-building/DOC.md) - Track.
 
 #### Downstream / consumers
 - None. This router does not own a second implementation.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.

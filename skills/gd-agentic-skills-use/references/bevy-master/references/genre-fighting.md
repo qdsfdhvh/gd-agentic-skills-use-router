@@ -24,10 +24,10 @@ Load this for local fighting: frame flags, hitboxes as your data, and a round st
 
 ## Routing
 
-- [bevy-state-machines](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md) - Round and character mode.
-- [bevy-combat-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-combat-system/DOC.md) - Strike resolution.
-- [bevy-animation](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-animation/DOC.md) - Move clips.
-- [bevy-input-handling](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-input-handling/DOC.md) - Per-frame input.
+- [bevy-state-machines](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md) - Round and character mode.
+- [bevy-combat-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-combat-system/DOC.md) - Strike resolution.
+- [bevy-animation](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-animation/DOC.md) - Move clips.
+- [bevy-input-handling](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-input-handling/DOC.md) - Per-frame input.
 
 ## Scope
 
@@ -90,18 +90,18 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and schedules.
-- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn and query shape.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and schedules.
+- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn and query shape.
 
 #### Complements
-- [godot-genre-fighting](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-genre-fighting/DOC.md) - Equivalent Godot skill.
-- [bevy-state-machines](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md) - Round and character mode.
-- [bevy-combat-system](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-combat-system/DOC.md) - Strike resolution.
-- [bevy-animation](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-animation/DOC.md) - Move clips.
-- [bevy-input-handling](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-input-handling/DOC.md) - Per-frame input.
+- [godot-genre-fighting](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-genre-fighting/DOC.md) - Equivalent Godot skill.
+- [bevy-state-machines](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md) - Round and character mode.
+- [bevy-combat-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-combat-system/DOC.md) - Strike resolution.
+- [bevy-animation](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-animation/DOC.md) - Move clips.
+- [bevy-input-handling](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-input-handling/DOC.md) - Per-frame input.
 
 #### Downstream / consumers
 - None. This router does not own a second implementation.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.

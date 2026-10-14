@@ -84,16 +84,16 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Hub and schedules.
-- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Components and systems.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Hub and schedules.
+- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Components and systems.
 
 #### Complements
-- [bevy-ui-text](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ui-text/DOC.md) - Text on a node.
-- [bevy-ui-theming](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ui-theming/DOC.md) - Colors and backgrounds.
-- [godot-ui-containers](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-ui-containers/DOC.md) - Equivalent Godot skill.
+- [bevy-ui-text](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ui-text/DOC.md) - Text on a node.
+- [bevy-ui-theming](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ui-theming/DOC.md) - Colors and backgrounds.
+- [godot-ui-containers](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-ui-containers/DOC.md) - Equivalent Godot skill.
 
 #### Downstream / consumers
-- [bevy-ui-text](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ui-text/DOC.md) - Consumes layout nodes.
+- [bevy-ui-text](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ui-text/DOC.md) - Consumes layout nodes.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.

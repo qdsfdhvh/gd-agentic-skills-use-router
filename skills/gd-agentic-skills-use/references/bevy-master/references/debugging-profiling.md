@@ -84,15 +84,15 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Who owns which piece of state.
-- [bevy-project-foundations](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-project-foundations/DOC.md)  -  `DefaultPlugins` and `App`.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Who owns which piece of state.
+- [bevy-project-foundations](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-project-foundations/DOC.md)  -  `DefaultPlugins` and `App`.
 
 #### Complements
-- [bevy-performance](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-performance/DOC.md)  -  What the frame-time numbers are for.
-- [godot-debugging-profiling](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-debugging-profiling/DOC.md)  -  Equivalent Godot skill.
+- [bevy-performance](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-performance/DOC.md)  -  What the frame-time numbers are for.
+- [godot-debugging-profiling](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-debugging-profiling/DOC.md)  -  Equivalent Godot skill.
 
 #### Downstream / consumers
 - None yet.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.

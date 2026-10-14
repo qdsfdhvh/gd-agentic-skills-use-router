@@ -85,18 +85,18 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership.
-- [bevy-data-resources](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-data-resources/DOC.md) - `Resource` versus `Component`.
-- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn tuples and `.chain()`.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership.
+- [bevy-data-resources](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-data-resources/DOC.md) - `Resource` versus `Component`.
+- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Spawn tuples and `.chain()`.
 
 #### Complements
-- [bevy-asset-scenes](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-asset-scenes/DOC.md) - Spawn a scene asset. Not a generator.
-- [bevy-save-load](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-save-load/DOC.md) - Seed persistence.
-- [bevy-navigation](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-navigation/DOC.md) - No bake after a generated map.
-- [godot-procedural-generation](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-procedural-generation/DOC.md) - Equivalent Godot skill.
+- [bevy-asset-scenes](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-asset-scenes/DOC.md) - Spawn a scene asset. Not a generator.
+- [bevy-save-load](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-save-load/DOC.md) - Seed persistence.
+- [bevy-navigation](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-navigation/DOC.md) - No bake after a generated map.
+- [godot-procedural-generation](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-procedural-generation/DOC.md) - Equivalent Godot skill.
 
 #### Downstream / consumers
 - None yet.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.

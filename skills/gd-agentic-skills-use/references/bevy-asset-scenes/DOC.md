@@ -86,17 +86,17 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Who owns which piece of state.
-- [bevy-project-foundations](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-project-foundations/DOC.md)  -  Cargo features, including asset watcher flags.
-- [bevy-state-machines](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md)  -  The asset page points at app states for load gates.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Who owns which piece of state.
+- [bevy-project-foundations](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-project-foundations/DOC.md)  -  Cargo features, including asset watcher flags.
+- [bevy-state-machines](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md)  -  The asset page points at app states for load gates.
 
 #### Complements
-- [bevy-audio-systems](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-audio-systems/DOC.md)  -  Clips loaded through `AssetServer`.
-- [bevy-save-load](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-save-load/DOC.md)  -  Player saves, separate from scene spawn.
-- [godot-scene-management](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-scene-management/DOC.md)  -  Equivalent Godot skill.
+- [bevy-audio-systems](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-audio-systems/DOC.md)  -  Clips loaded through `AssetServer`.
+- [bevy-save-load](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-save-load/DOC.md)  -  Player saves, separate from scene spawn.
+- [godot-scene-management](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-scene-management/DOC.md)  -  Equivalent Godot skill.
 
 #### Downstream / consumers
-- [bevy-camera-systems](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-camera-systems/DOC.md)  -  Camera entities a scene may spawn.
+- [bevy-camera-systems](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-camera-systems/DOC.md)  -  Camera entities a scene may spawn.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.

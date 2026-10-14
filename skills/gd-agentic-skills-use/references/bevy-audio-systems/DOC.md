@@ -87,15 +87,15 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Who owns which piece of state.
-- [bevy-asset-scenes](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-asset-scenes/DOC.md)  -  `AssetServer` and `Handle`.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Who owns which piece of state.
+- [bevy-asset-scenes](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-asset-scenes/DOC.md)  -  `AssetServer` and `Handle`.
 
 #### Complements
-- [bevy-input-handling](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-input-handling/DOC.md)  -  Keys the control example uses.
-- [godot-audio-systems](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-audio-systems/DOC.md)  -  Equivalent Godot skill.
+- [bevy-input-handling](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-input-handling/DOC.md)  -  Keys the control example uses.
+- [godot-audio-systems](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-audio-systems/DOC.md)  -  Equivalent Godot skill.
 
 #### Downstream / consumers
 - None yet. Genre skills that play stingers should route here when they exist.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.

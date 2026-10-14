@@ -86,16 +86,16 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Who owns which piece of state.
-- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md)  -  Systems and `Query`.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Who owns which piece of state.
+- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md)  -  Systems and `Query`.
 
 #### Complements
-- [bevy-character-movement](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md)  -  Motion that consumes this input on the fixed timestep.
-- [bevy-camera-systems](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-camera-systems/DOC.md)  -  Viewpoint that may read mouse motion.
-- [godot-input-handling](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-input-handling/DOC.md)  -  Equivalent Godot skill.
+- [bevy-character-movement](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md)  -  Motion that consumes this input on the fixed timestep.
+- [bevy-camera-systems](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-camera-systems/DOC.md)  -  Viewpoint that may read mouse motion.
+- [godot-input-handling](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-input-handling/DOC.md)  -  Equivalent Godot skill.
 
 #### Downstream / consumers
-- [bevy-audio-systems](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-audio-systems/DOC.md)  -  The audio control example reads `ButtonInput<KeyCode>` to pause and mute.
+- [bevy-audio-systems](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-audio-systems/DOC.md)  -  The audio control example reads `ButtonInput<KeyCode>` to pause and mute.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.

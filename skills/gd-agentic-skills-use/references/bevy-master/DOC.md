@@ -225,7 +225,7 @@ docs.rs links use the unversioned `latest` permalink (same role as Godot `/en/st
 - None. This hub is the Bevy entry point.
 
 #### Complements
-- [godot-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-master/DOC.md)  -  Godot hub.
+- [godot-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-master/DOC.md)  -  Godot hub.
 
 #### Downstream / consumers
 - [bevy-project-foundations](references/project-foundations.md)  -  Crate, Cargo features, and layout habits.

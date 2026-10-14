@@ -83,15 +83,15 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Hub.
-- [bevy-project-foundations](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-project-foundations/DOC.md) - Cargo app shell.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Hub.
+- [bevy-project-foundations](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-project-foundations/DOC.md) - Cargo app shell.
 
 #### Complements
-- [bevy-platform-desktop](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-platform-desktop/DOC.md) - Windowed targets.
-- [godot-project-templates](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-project-templates/DOC.md) - Equivalent Godot skill.
+- [bevy-platform-desktop](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-platform-desktop/DOC.md) - Windowed targets.
+- [godot-project-templates](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-project-templates/DOC.md) - Equivalent Godot skill.
 
 #### Downstream / consumers
 - None yet.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.

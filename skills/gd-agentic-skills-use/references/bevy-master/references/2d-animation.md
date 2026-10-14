@@ -85,16 +85,16 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Hub and schedules.
-- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Components and systems.
-- [bevy-animation](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-animation/DOC.md) - AnimationPlayer and AnimationClip.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Hub and schedules.
+- [bevy-ecs-composition](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-ecs-composition/DOC.md) - Components and systems.
+- [bevy-animation](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-animation/DOC.md) - AnimationPlayer and AnimationClip.
 
 #### Complements
-- [bevy-animation-graph](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-animation-graph/DOC.md) - Blend clips.
-- [godot-2d-animation](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-2d-animation/DOC.md) - Equivalent Godot skill.
+- [bevy-animation-graph](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-animation-graph/DOC.md) - Blend clips.
+- [godot-2d-animation](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-2d-animation/DOC.md) - Equivalent Godot skill.
 
 #### Downstream / consumers
 - None yet.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.

@@ -84,16 +84,16 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and the fixed-timestep schedule names.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - ECS ownership and the fixed-timestep schedule names.
 
 #### Complements
-- [bevy-physics-3d](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-physics-3d/DOC.md) - Simulated 3D bodies and solver choice.
-- [bevy-character-movement](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md) - Player locomotion that should not be a rigid body.
-- [bevy-spatial-queries](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-spatial-queries/DOC.md) - Casts and overlaps. Choose a physics solver before adding them.
-- [godot-2d-physics](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-2d-physics/DOC.md) - Equivalent Godot skill.
+- [bevy-physics-3d](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-physics-3d/DOC.md) - Simulated 3D bodies and solver choice.
+- [bevy-character-movement](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md) - Player locomotion that should not be a rigid body.
+- [bevy-spatial-queries](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-spatial-queries/DOC.md) - Casts and overlaps. Choose a physics solver before adding them.
+- [godot-2d-physics](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-2d-physics/DOC.md) - Equivalent Godot skill.
 
 #### Downstream / consumers
 - Combat and shooter skills cover hit detection and shots.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md) - Bevy router.

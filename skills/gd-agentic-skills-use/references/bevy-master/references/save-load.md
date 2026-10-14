@@ -81,15 +81,15 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Who owns which piece of state.
-- [bevy-data-resources](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-data-resources/DOC.md)  -  `Resource` versus `Component`.
-- [bevy-asset-scenes](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-asset-scenes/DOC.md)  -  Loading content. Not a save slot.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Who owns which piece of state.
+- [bevy-data-resources](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-data-resources/DOC.md)  -  `Resource` versus `Component`.
+- [bevy-asset-scenes](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-asset-scenes/DOC.md)  -  Loading content. Not a save slot.
 
 #### Complements
-- [godot-save-load-systems](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-save-load-systems/DOC.md)  -  Equivalent Godot skill.
+- [godot-save-load-systems](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-save-load-systems/DOC.md)  -  Equivalent Godot skill.
 
 #### Downstream / consumers
 - None until a save format is opened.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.

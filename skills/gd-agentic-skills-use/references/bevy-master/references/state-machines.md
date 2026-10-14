@@ -87,15 +87,15 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Schedules versus a scene tree.
-- [bevy-data-resources](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-data-resources/DOC.md)  -  `NextState<S>` is a resource. Per-entity modes are components.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Schedules versus a scene tree.
+- [bevy-data-resources](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-data-resources/DOC.md)  -  `NextState<S>` is a resource. Per-entity modes are components.
 
 #### Complements
-- [bevy-events-messaging](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-events-messaging/DOC.md)  -  Messages and observers that are not state transitions.
-- [godot-state-machine-advanced](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-state-machine-advanced/DOC.md)  -  Equivalent Godot skill. Do not import Godot types.
+- [bevy-events-messaging](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-events-messaging/DOC.md)  -  Messages and observers that are not state transitions.
+- [godot-state-machine-advanced](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-state-machine-advanced/DOC.md)  -  Equivalent Godot skill. Do not import Godot types.
 
 #### Downstream / consumers
-- [bevy-character-movement](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md)  -  Actor motion. A jump or ground mode stays a component unless a mode needs `States`.
+- [bevy-character-movement](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-character-movement/DOC.md)  -  Actor motion. A jump or ground mode stays a component unless a mode needs `States`.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.

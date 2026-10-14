@@ -85,16 +85,16 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 ### Related Skills
 
 #### Prerequisites
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  No autoload layer on top of the schedule.
-- [bevy-project-foundations](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-project-foundations/DOC.md)  -  Crate and `App::new()`.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  No autoload layer on top of the schedule.
+- [bevy-project-foundations](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-project-foundations/DOC.md)  -  Crate and `App::new()`.
 
 #### Complements
-- [bevy-data-resources](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-data-resources/DOC.md)  -  When data is a component instead of a resource.
-- [bevy-state-machines](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md)  -  App-wide `States` instead of a global mode flag on a node.
-- [godot-autoload-architecture](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/godot-autoload-architecture/DOC.md)  -  Equivalent Godot skill. Do not import Godot types.
+- [bevy-data-resources](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-data-resources/DOC.md)  -  When data is a component instead of a resource.
+- [bevy-state-machines](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md)  -  App-wide `States` instead of a global mode flag on a node.
+- [godot-autoload-architecture](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-autoload-architecture/DOC.md)  -  Equivalent Godot skill. Do not import Godot types.
 
 #### Downstream / consumers
 - Save, audio, and scene skills cover persistence, playback, and scene spawn.
 
 #### Master
-- [bevy-master](https://github.com/thedivergentai/Game-Design-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.
+- [bevy-master](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-master/DOC.md)  -  Bevy router.
