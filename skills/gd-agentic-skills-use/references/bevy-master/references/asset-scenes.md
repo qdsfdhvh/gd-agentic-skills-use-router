@@ -3,7 +3,7 @@
 
 ## When to use
 
-Load this when content comes from disk or a scene description should spawn entities. `bevy::asset` and `bevy::scene` on docs.rs `latest` (0.20.0) are the sources.
+Load this when content comes from disk or a scene description should spawn entities. `AssetServer` loads files. `bsn!` describes a `Scene` that `spawn_scene` or `queue_spawn_scene` turns into entities.
 
 ## ECS shape
 
@@ -13,22 +13,91 @@ Load this when content comes from disk or a scene description should spawn entit
 - **Scenes:** `bevy::scene` describes a `Scene` (entity, components, children, assets), built with the `bsn!` macro. `World::spawn_scene` and `Commands::spawn_scene` spawn immediately and error if asset dependencies are not loaded. `World::queue_spawn_scene` and `Commands::queue_spawn_scene` wait, then spawn in the `SpawnScene` schedule between `Update` and `PostUpdate`.
 - **Hierarchy in a scene:** `Children [ ... ]` inside `bsn!`. Separate sibling entities with `--`. `#Name` assigns a `Name` inside that macro's scope.
 
-## Coming from Godot
+## Asset choice
 
-| Godot idea | Bevy idiom |
+| Need | Do this |
 | --- | --- |
-| Load a file | `AssetServer::load` → `Handle` |
+| Load a file | `AssetServer::load` returns a `Handle` |
 | Wait until ready | `is_loaded_with_dependencies` before a state change |
-| Instance a packed scene | `spawn_scene` or `queue_spawn_scene` around a `Scene` |
-| Child nodes in that scene | `Children` inside `bsn!` |
+| Spawn a scene now | `spawn_scene` only after dependencies are loaded |
+| Spawn when ready | `queue_spawn_scene` (`SpawnScene` sits between `Update` and `PostUpdate`) |
+| Children in that scene | `Children` inside `bsn!` |
 | Change one entity's mesh | Swap the `Handle` on the component that stores it |
 
-## Scope
+`.bsn` files on disk are still ahead of the shipping scene API. Author scenes with `bsn!`. Free a previous level by despawning its root, then queue the next scene. Register a custom `AssetLoader` with `App::register_asset_loader` once that loader type exists.
 
-- `.bsn` asset files are described as future on the scene page. Do not invent a file loader for them.
-- A `DynamicScene` type was not on docs.rs `latest` (the struct URL 404'd on 2026-10-11). Do not cite it.
-- Scene change as "free the old level, then spawn the next" is a design note. No level-switch API was opened.
-- Custom `AssetLoader` registration is named as `App::register_asset_loader`. Check the asset docs for a worked example before writing one.
+```toml
+[dependencies]
+bevy = { version = "0.20", features = ["file_watcher"] }
+```
+
+```rust
+#[derive(Resource)]
+struct PropMesh(Handle<Mesh>);
+
+fn begin_load(mut commands: Commands, assets: Res<AssetServer>) {
+    let handle: Handle<Mesh> = assets.load("models/crate.glb#Mesh0/Primitive0");
+    commands.insert_resource(PropMesh(handle));
+}
+
+fn mesh_is_ready(assets: Res<AssetServer>, mesh: Option<Res<PropMesh>>) -> bool {
+    match mesh {
+        Some(mesh) => assets.is_loaded_with_dependencies(&mesh.0),
+        None => false,
+    }
+}
+
+fn store_generated_material(
+    mut materials: ResMut<Assets<StandardMaterial>>,
+    mut commands: Commands,
+) {
+    let handle = materials.add(StandardMaterial {
+        base_color: Color::srgb(0.8, 0.8, 0.82),
+        ..default()
+    });
+    commands.insert_resource(GeneratedMaterial(handle));
+}
+
+#[derive(Resource)]
+struct GeneratedMaterial(Handle<StandardMaterial>);
+```
+
+```rust
+#[derive(Component, Default, Clone)]
+struct CrateProp;
+
+#[derive(Component, Default, Clone)]
+struct Lid;
+
+#[derive(Component, Default, Clone)]
+struct LevelRoot;
+
+fn spawn_crate(mut commands: Commands) {
+    commands.spawn_scene(bsn! {
+        #SupplyCrate
+        CrateProp
+        Children [
+            Lid
+        ]
+    });
+}
+
+fn queue_level(mut commands: Commands) {
+    commands.queue_spawn_scene(bsn! {
+        :"levels/yard.bsn"
+        LevelRoot
+    });
+}
+
+fn replace_level(mut commands: Commands, roots: Query<Entity, With<LevelRoot>>) {
+    for entity in &roots {
+        commands.entity(entity).despawn();
+    }
+    commands.queue_spawn_scene(bsn! {
+        LevelRoot
+    });
+}
+```
 
 ## Expert Knowledge Delta
 
@@ -52,7 +121,7 @@ Borrow rule: two systems that both mutably query the same component must be orde
 
 | If you need | Do this | Do not |
 | --- | --- | --- |
-| Per-entity data | `Component` + `Query` | A Godot node script |
+| Per-entity data | `Component` + `Query` | One script that owns the whole actor |
 | App-wide config or clock | `Resource` | Copy the value onto every entity |
 | Stable simulation step | `FixedMain` and the `Fixed` clock | Tie simulation to raw frame `Update` |
 | Startup spawn | `Commands` in `Startup` | Spawn from a render system |
@@ -67,20 +136,16 @@ Load [references/ecs-ownership.md](asset-scenes-ecs-ownership.md) for the owners
 - Do not mutably query the same component from two unordered systems. WHY: the schedule runs systems in parallel unless `.chain()` orders them.
 - Do not invent a physics, navigation, networking, or XR crate here. WHY: this skill only names documented Bevy crates and modules.
 
-- No Godot packed-scene, node, or resource-loader types. WHY: Bevy code stays idiomatic ECS and uses only documented Bevy APIs.
+- No packed-scene or resource-loader types from another engine. WHY: readiness is `is_loaded_with_dependencies`, and spawn is `spawn_scene` or `queue_spawn_scene`, not a node instance.
 - No scene format this file did not open. WHY: Bevy code stays idiomatic ECS and uses only documented Bevy APIs.
 - No third-party scene crates. WHY: Bevy code stays idiomatic ECS and uses only documented Bevy APIs.
 
 ## Reference
 
-docs.rs links use the unversioned `latest` permalink. The library pin on bevy-master stays **0.20.0**.
+The library pin on bevy-master stays **0.20.0**. Load [references/ecs-ownership.md](asset-scenes-ecs-ownership.md) when a handle is a resource and a scene root is a component. Do not load it to write a custom loader body.
 
 ### Official Documentation
-- [Migration guides](https://bevy.org/learn/migration-guides/introduction/)  -  Unversioned hop index.
-- [bevy crate](https://docs.rs/bevy/latest/bevy/)  -  Unversioned API index.
-- [bevy::asset](https://docs.rs/bevy/latest/bevy/asset/index.html)  -  `AssetServer`, `Handle`, `Assets<T>`, load state, hot reload.
-- [bevy::scene](https://docs.rs/bevy/latest/bevy/scene/index.html)  -  `Scene`, `bsn!`, `spawn_scene`, `queue_spawn_scene`, `SpawnScene`.
-- [Assets](https://bevy.org/assets/)  -  Official asset catalog.
+- [Assets](https://bevy.org/assets/)  -  Official asset catalog. `AssetServer`, `Handle`, and `Assets<T>` are the load path. `Scene`, `bsn!`, `spawn_scene`, `queue_spawn_scene`, and `SpawnScene` are the spawn path.
 - [Examples](https://github.com/bevyengine/bevy/tree/latest/examples#examples)  -  Example tree on the `latest` branch.
 
 ### Related Skills
@@ -93,7 +158,6 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 #### Complements
 - [bevy-audio-systems](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-audio-systems/DOC.md)  -  Clips loaded through `AssetServer`.
 - [bevy-save-load](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-save-load/DOC.md)  -  Player saves, separate from scene spawn.
-- [godot-scene-management](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-scene-management/DOC.md)  -  Equivalent Godot skill.
 
 #### Downstream / consumers
 - [bevy-camera-systems](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-camera-systems/DOC.md)  -  Camera entities a scene may spawn.

@@ -5,57 +5,57 @@ Choose the topic matching the current task, then read only its document. Broad t
 | Document | Focus |
 | --- | --- |
 | [bevy-2d-animation](bevy-2d-animation/DOC.md) | Bevy ECS skill for 2D sprite animation. |
-| [bevy-3d-lighting](bevy-3d-lighting/DOC.md) | Bevy ECS skill for 3D lights. |
+| [bevy-3d-lighting](bevy-3d-lighting/DOC.md) | Spawn and tune Bevy 0.20 directional, point, and spot lights, cascade shadows, distance fog, and a nearest-light shadow budget. |
 | [bevy-3d-materials](bevy-3d-materials/DOC.md) | Bevy ECS skill for PBR materials. |
 | [bevy-3d-world-building](bevy-3d-world-building/DOC.md) | Bevy ECS skill for 3D level assembly. |
 | [bevy-ability-system](bevy-ability-system/DOC.md) | Bevy ECS skill for abilities. |
-| [bevy-adapt-2d-to-3d](bevy-adapt-2d-to-3d/DOC.md) | Bevy ECS skill for moving a Bevy game from 2D to 3D. |
+| [bevy-adapt-2d-to-3d](bevy-adapt-2d-to-3d/DOC.md) | Rewrite Bevy 2D actors and cameras into 3D meshes and Camera3d while keeping gameplay components. |
 | [bevy-adapt-3d-to-2d](bevy-adapt-3d-to-2d/DOC.md) | Bevy ECS skill for moving a Bevy game from 3D to 2D. |
 | [bevy-adapt-desktop-to-mobile](bevy-adapt-desktop-to-mobile/DOC.md) | Bevy ECS skill for adapting a Bevy desktop game to mobile. |
 | [bevy-adapt-mobile-to-desktop](bevy-adapt-mobile-to-desktop/DOC.md) | Bevy ECS skill for adapting a Bevy mobile game to desktop. |
-| [bevy-ai-navigation](bevy-ai-navigation/DOC.md) | Bevy ECS skill for AI navigation policy. |
+| [bevy-ai-navigation](bevy-ai-navigation/DOC.md) | Bevy 0.20 chase, patrol, and wait policy: an enum brain, a goal, a desired velocity, and a retarget timer on FixedUpdate. |
 | [bevy-animation](bevy-animation/DOC.md) | Bevy ECS skill for animation playback. |
 | [bevy-animation-graph](bevy-animation-graph/DOC.md) | Bevy ECS skill for animation blending. |
 | [bevy-app-resources](bevy-app-resources/DOC.md) | Bevy ECS skill for app-wide resources and schedules. |
-| [bevy-asset-scenes](bevy-asset-scenes/DOC.md) | Bevy ECS skill for assets and scene spawning. |
+| [bevy-asset-scenes](bevy-asset-scenes/DOC.md) | Load Bevy 0.20 assets with AssetServer and spawn scenes with bsn!, spawn_scene, and queue_spawn_scene. |
 | [bevy-audio-systems](bevy-audio-systems/DOC.md) | Bevy ECS skill for audio playback. |
 | [bevy-camera-systems](bevy-camera-systems/DOC.md) | Bevy ECS skill for cameras. |
-| [bevy-character-movement](bevy-character-movement/DOC.md) | Bevy ECS skill for character movement. |
-| [bevy-combat-system](bevy-combat-system/DOC.md) | Bevy ECS skill for combat. |
-| [bevy-data-resources](bevy-data-resources/DOC.md) | Bevy ECS skill for components and resources as data. |
+| [bevy-character-movement](bevy-character-movement/DOC.md) | Bevy 0.20 kinematic character movement: intent components, FixedUpdate integration, coyote time, and jump buffer. |
+| [bevy-combat-system](bevy-combat-system/DOC.md) | Bevy ECS combat: Health, Team, and Invuln on actors, Hit messages, melee reach, despawn on FixedUpdate after damage. |
+| [bevy-data-resources](bevy-data-resources/DOC.md) | Place Bevy 0.20 gameplay data on a Component or a Resource. |
 | [bevy-debugging-profiling](bevy-debugging-profiling/DOC.md) | Bevy ECS skill for logs and diagnostics. |
-| [bevy-dialogue-system](bevy-dialogue-system/DOC.md) | Bevy ECS skill for dialogue. |
-| [bevy-economy-system](bevy-economy-system/DOC.md) | Bevy ECS skill for currency and prices. |
-| [bevy-ecs-composition](bevy-ecs-composition/DOC.md) | Bevy ECS skill for entity composition. |
+| [bevy-dialogue-system](bevy-dialogue-system/DOC.md) | Bevy 0.20 dialogue data: line tables in a resource, the current line index on a component, and choice flags filtered before the write. |
+| [bevy-economy-system](bevy-economy-system/DOC.md) | Bevy ECS economy: Wallet components, a PriceTable resource, Purchase and Transfer messages, vendor stock. |
+| [bevy-ecs-composition](bevy-ecs-composition/DOC.md) | Compose Bevy 0.20 entities from small components and systems. |
 | [bevy-events-messaging](bevy-events-messaging/DOC.md) | Bevy ECS skill for messages and observers. |
-| [bevy-game-loop-collection](bevy-game-loop-collection/DOC.md) | Bevy ECS skill for a Bevy collection loop. |
-| [bevy-game-loop-harvest](bevy-game-loop-harvest/DOC.md) | Bevy ECS skill for a Bevy harvest loop. |
-| [bevy-game-loop-time-trial](bevy-game-loop-time-trial/DOC.md) | Bevy ECS skill for a Bevy time trial. |
+| [bevy-game-loop-collection](bevy-game-loop-collection/DOC.md) | Bevy 0.20 collection loop: pickup markers, a quota resource, one score per entity per pass, and NextState when the quota is met. |
+| [bevy-game-loop-harvest](bevy-game-loop-harvest/DOC.md) | Bevy ECS harvest loop: Crop stage on Time<Fixed>, season scale, catch-up from a LastVisit resource, Harvested messages. |
+| [bevy-game-loop-time-trial](bevy-game-loop-time-trial/DOC.md) | Run a Bevy 0.20 time trial as ECS data. |
 | [bevy-game-loop-waves](bevy-game-loop-waves/DOC.md) | Bevy ECS skill for encounter waves. |
-| [bevy-genre-action-rpg](bevy-genre-action-rpg/DOC.md) | Thin Bevy genre router for Action RPG. |
-| [bevy-genre-card-game](bevy-genre-card-game/DOC.md) | Thin Bevy genre router for Card game. |
-| [bevy-genre-educational](bevy-genre-educational/DOC.md) | Thin Bevy genre router for Educational. |
-| [bevy-genre-fighting](bevy-genre-fighting/DOC.md) | Thin Bevy genre router for Fighting. |
-| [bevy-genre-horror](bevy-genre-horror/DOC.md) | Thin Bevy genre router for Horror. |
-| [bevy-genre-idle-clicker](bevy-genre-idle-clicker/DOC.md) | Thin Bevy genre router for Idle clicker. |
-| [bevy-genre-metroidvania](bevy-genre-metroidvania/DOC.md) | Thin Bevy genre router for Metroidvania. |
-| [bevy-genre-open-world](bevy-genre-open-world/DOC.md) | Thin Bevy genre router for Open world. |
-| [bevy-genre-party](bevy-genre-party/DOC.md) | Thin Bevy genre router for Party. |
-| [bevy-genre-platformer](bevy-genre-platformer/DOC.md) | Thin Bevy genre router for Platformer. |
-| [bevy-genre-puzzle](bevy-genre-puzzle/DOC.md) | Thin Bevy genre router for Puzzle. |
-| [bevy-genre-racing](bevy-genre-racing/DOC.md) | Thin Bevy genre router for Racing. |
-| [bevy-genre-rhythm](bevy-genre-rhythm/DOC.md) | Thin Bevy genre router for Rhythm. |
-| [bevy-genre-roguelike](bevy-genre-roguelike/DOC.md) | Thin Bevy genre router for Roguelike. |
-| [bevy-genre-romance](bevy-genre-romance/DOC.md) | Thin Bevy genre router for Romance. |
-| [bevy-genre-rts](bevy-genre-rts/DOC.md) | Thin Bevy genre router for RTS. |
-| [bevy-genre-sandbox](bevy-genre-sandbox/DOC.md) | Thin Bevy genre router for Sandbox. |
-| [bevy-genre-shooter](bevy-genre-shooter/DOC.md) | Thin Bevy genre router for Shooter. |
-| [bevy-genre-shooter-fps](bevy-genre-shooter-fps/DOC.md) | Thin Bevy genre router for FPS shooter. |
-| [bevy-genre-simulation](bevy-genre-simulation/DOC.md) | Thin Bevy genre router for Simulation. |
+| [bevy-genre-action-rpg](bevy-genre-action-rpg/DOC.md) | Bevy 0.20 action-RPG router: real-time hits, stats, inventory, and quests as ECS joins, with domain work in the linked skills. |
+| [bevy-genre-card-game](bevy-genre-card-game/DOC.md) | Bevy card-game router: zones, turn resource, deck order, catalog costs, EndTurn and PlayCard messages. |
+| [bevy-genre-educational](bevy-genre-educational/DOC.md) | Route a Bevy 0.20 educational loop. |
+| [bevy-genre-fighting](bevy-genre-fighting/DOC.md) | Bevy genre router for fighting. |
+| [bevy-genre-horror](bevy-genre-horror/DOC.md) | Bevy 0.20 horror router: sanity, stalker suspicion, and light energy as ECS data, with lighting, audio, and navigation in the linked skills. |
+| [bevy-genre-idle-clicker](bevy-genre-idle-clicker/DOC.md) | Route a Bevy 0.20 idle clicker: one Wallet resource, generator entities, click on Update, offline bank capped in hours. |
+| [bevy-genre-metroidvania](bevy-genre-metroidvania/DOC.md) | Bevy genre router for Metroidvania. |
+| [bevy-genre-open-world](bevy-genre-open-world/DOC.md) | Route a Bevy 0.20 open world. |
+| [bevy-genre-party](bevy-genre-party/DOC.md) | Bevy 0.20 party router: local seats, shared scores, and minigame swaps as ECS data. |
+| [bevy-genre-platformer](bevy-genre-platformer/DOC.md) | Route a Bevy 0.20 platformer: coyote time and jump buffer on Mover, gravity on FixedUpdate, one-way ledges, follow camera. |
+| [bevy-genre-puzzle](bevy-genre-puzzle/DOC.md) | Bevy genre router for Puzzle. |
+| [bevy-genre-racing](bevy-genre-racing/DOC.md) | Route a Bevy 0.20 race. |
+| [bevy-genre-rhythm](bevy-genre-rhythm/DOC.md) | Bevy 0.20 rhythm router: chart notes, a song clock, and hit windows as ECS data. |
+| [bevy-genre-roguelike](bevy-genre-roguelike/DOC.md) | Route a Bevy 0.20 roguelike: RunSeed resource, room entities, permadeath flag, turn energy, grid pickup. |
+| [bevy-genre-romance](bevy-genre-romance/DOC.md) | Bevy genre router for Romance. |
+| [bevy-genre-rts](bevy-genre-rts/DOC.md) | Route a Bevy 0.20 RTS. |
+| [bevy-genre-sandbox](bevy-genre-sandbox/DOC.md) | Bevy 0.20 sandbox router: placed cells, remove, and a serde snapshot of the build. |
+| [bevy-genre-shooter](bevy-genre-shooter/DOC.md) | Route a Bevy 0.20 shooter: projectile entities, hitscan by translation, collide-and-despawn, wave budget resource. |
+| [bevy-genre-shooter-fps](bevy-genre-shooter-fps/DOC.md) | Bevy genre router for FPS shooter. |
+| [bevy-genre-simulation](bevy-genre-simulation/DOC.md) | Route a Bevy 0.20 simulation. |
 | [bevy-genre-sports](bevy-genre-sports/DOC.md) | Thin Bevy genre router for Sports. |
 | [bevy-genre-stealth](bevy-genre-stealth/DOC.md) | Thin Bevy genre router for Stealth. |
-| [bevy-genre-survival](bevy-genre-survival/DOC.md) | Thin Bevy genre router for Survival. |
-| [bevy-genre-tower-defense](bevy-genre-tower-defense/DOC.md) | Thin Bevy genre router for Tower defense. |
+| [bevy-genre-survival](bevy-genre-survival/DOC.md) | Bevy ECS skill for survival loops. |
+| [bevy-genre-tower-defense](bevy-genre-tower-defense/DOC.md) | Bevy genre router for tower defense. |
 | [bevy-genre-visual-novel](bevy-genre-visual-novel/DOC.md) | Thin Bevy genre router for Visual novel. |
 | [bevy-input-handling](bevy-input-handling/DOC.md) | Bevy ECS skill for player input. |
 | [bevy-inventory-system](bevy-inventory-system/DOC.md) | Bevy ECS skill for inventories. |
@@ -69,23 +69,23 @@ Choose the topic matching the current task, then read only its document. Broad t
 | [bevy-physics-3d](bevy-physics-3d/DOC.md) | Bevy ECS skill for 3D physics. |
 | [bevy-platform-desktop](bevy-platform-desktop/DOC.md) | Bevy ECS skill for desktop windows. |
 | [bevy-platform-mobile](bevy-platform-mobile/DOC.md) | Bevy ECS skill for mobile. |
-| [bevy-platform-web](bevy-platform-web/DOC.md) | Bevy ECS skill for web and Wasm. |
+| [bevy-platform-web](bevy-platform-web/DOC.md) | Ship a Bevy 0.20 app to the browser: wasm32 canvas Window, one of webgl2 or webgpu, and asset paths the page can serve. |
 | [bevy-procedural-generation](bevy-procedural-generation/DOC.md) | Bevy ECS skill for procedural generation. |
-| [bevy-project-foundations](bevy-project-foundations/DOC.md) | Bevy ECS skill for a Bevy Rust project layout. |
+| [bevy-project-foundations](bevy-project-foundations/DOC.md) | Pins a Bevy 0.20 crate, dev-profile opt-level, and plugin boundaries before gameplay systems exist. |
 | [bevy-project-templates](bevy-project-templates/DOC.md) | Bevy ECS skill for project templates. |
-| [bevy-quest-system](bevy-quest-system/DOC.md) | Bevy ECS skill for quests. |
+| [bevy-quest-system](bevy-quest-system/DOC.md) | Track Bevy 0.20 quest definitions in a Resource and per-party progress in a Component, advanced by Messages. |
 | [bevy-rpg-stats](bevy-rpg-stats/DOC.md) | Bevy ECS skill for character stats. |
-| [bevy-save-load](bevy-save-load/DOC.md) | Bevy ECS skill for persistence boundaries. |
+| [bevy-save-load](bevy-save-load/DOC.md) | Persists a versioned Bevy Resource as RON when a SaveRequest exists. |
 | [bevy-shaders](bevy-shaders/DOC.md) | Bevy ECS skill for shaders. |
-| [bevy-spatial-queries](bevy-spatial-queries/DOC.md) | Bevy ECS skill for spatial queries. |
+| [bevy-spatial-queries](bevy-spatial-queries/DOC.md) | Answer Bevy 0.20 line-of-sight, radius, and cursor picks with Transform distance and facing. |
 | [bevy-state-machines](bevy-state-machines/DOC.md) | Bevy ECS skill for app states and per-entity state data. |
-| [bevy-testing-patterns](bevy-testing-patterns/DOC.md) | Bevy ECS skill for Cargo tests around Bevy work. |
+| [bevy-testing-patterns](bevy-testing-patterns/DOC.md) | Tests Bevy schedule logic with cargo test, MinimalPlugins, and app.update(). |
 | [bevy-tilemap](bevy-tilemap/DOC.md) | Bevy ECS skill for tile maps. |
-| [bevy-turn-system](bevy-turn-system/DOC.md) | Bevy ECS skill for turn order. |
+| [bevy-turn-system](bevy-turn-system/DOC.md) | Run Bevy 0.20 turns with initiative on components and the active entity plus round on one resource. |
 | [bevy-tweening](bevy-tweening/DOC.md) | Bevy ECS skill for tween and juice. |
-| [bevy-ui-layout](bevy-ui-layout/DOC.md) | Bevy ECS skill for UI layout. |
-| [bevy-ui-text](bevy-ui-text/DOC.md) | Bevy ECS skill for UI text. |
-| [bevy-ui-theming](bevy-ui-theming/DOC.md) | Bevy ECS skill for UI theming. |
+| [bevy-ui-layout](bevy-ui-layout/DOC.md) | Lays out Bevy HUD and menu nodes with Flexbox, CSS Grid, Button, and ImageNode. |
+| [bevy-ui-text](bevy-ui-text/DOC.md) | Bevy 0.20 UI and world text: Text, Text2d, TextSpan, TextFont, TextColor, TextLayout, TextShadow, Text2dShadow. |
+| [bevy-ui-theming](bevy-ui-theming/DOC.md) | Theme a Bevy HUD from one palette resource copied onto BackgroundColor, BorderColor, BoxShadow, and BackgroundGradient. |
 | [godot-2d-animation](godot-2d-animation/DOC.md) | 2D animation in Godot using AnimatedSprite2D and skeletal cutout rigs. |
 | [godot-2d-physics](godot-2d-physics/DOC.md) | Godot 2D physics including collision layers/masks, Area2D triggers, raycasting, and PhysicsDirectSpaceState2D queries. |
 | [godot-3d-lighting](godot-3d-lighting/DOC.md) | Godot 3D lighting including DirectionalLight3D shadow cascades, OmniLight3D attenuation, SpotLight3D projectors, VoxelGI vs SDFGI, and LightmapGI baking. |

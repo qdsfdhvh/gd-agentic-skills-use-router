@@ -1,7 +1,7 @@
 {
   "source": "https://github.com/thedivergentai/GD-Agentic-Skills",
-  "commit": "9aace0400cac6f5569f146f4ef618bade467999a",
-  "version": "0.1.1+upstream.9aace04",
+  "commit": "002d004c50b865406e58b3ec86508adab926d7f4",
+  "version": "0.1.1+upstream.002d004",
   "skills": [
     "bevy-2d-animation",
     "bevy-3d-lighting",

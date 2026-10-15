@@ -8,22 +8,163 @@ Load this when play advances in turns rather than continuous time. Time still ex
 ## ECS shape
 
 - **Components:** initiative and the active entity id you define.
-- **Resources:** run-wide tables live in a resource (bevy-data-resources), not an autoload.
+- **Resources:** the active entity and the round live in one `Resource` (bevy-data-resources).
 - **Systems:** mutate those components on `Update` or the fixed timestep. Use `.chain()` when damage must land before death.
 - **Messages:** one-shot facts (hit, pickup, quest advance) go through bevy-events-messaging. This file does not add a new event type name.
 
-## Coming from Godot
+## Turn ownership
 
-| Godot idea | Bevy idiom |
+| Fact | Owner |
 | --- | --- |
-| Initiative | A component number you sort. |
-| Active actor | A resource entity id. |
-| Round | A resource counter. Advance it in one chained system. |
+| Initiative | A component number, sorted when the round opens. |
+| Active actor | `TurnClock.order[index]`. |
+| Round | A counter on that same resource. Advance it in the chained end system. |
 
 ## Scope
 
-- Turn, initiative, and timeline data are yours to build as components.
-- `bevy::state` is for app or component modes, not an initiative queue. See bevy-state-machines.
+- Initiative is a component. The active entity and the round counter are one resource so a single system advances them.
+- Rebuild the queue when a round starts or when a speed stat changes. Do not sort again on every action.
+- `bevy::state` is for app modes, not an initiative queue. See bevy-state-machines.
+
+## Examples
+
+```toml
+[dependencies]
+bevy = "0.20"
+```
+
+Each fighter stores speed and action points. The clock names who is active.
+
+```rust
+#[derive(Component)]
+struct Fighter {
+    speed: i32,
+    tie_break: u32,
+    action_points: u32,
+}
+
+#[derive(Resource)]
+struct TurnClock {
+    round: u32,
+    order: Vec<Entity>,
+    index: usize,
+}
+
+fn spawn_match(mut commands: Commands) {
+    let a = commands
+        .spawn(Fighter {
+            speed: 12,
+            tie_break: 0,
+            action_points: 2,
+        })
+        .id();
+    let b = commands
+        .spawn(Fighter {
+            speed: 12,
+            tie_break: 1,
+            action_points: 2,
+        })
+        .id();
+    commands.insert_resource(TurnClock {
+        round: 1,
+        order: vec![a, b],
+        index: 0,
+    });
+}
+```
+
+Sort once. Equal speed falls through to a stable id so replays stay deterministic.
+
+```rust
+#[derive(Component, Clone, Copy)]
+struct Fighter {
+    speed: i32,
+    tie_break: u32,
+}
+
+#[derive(Resource)]
+struct TurnClock {
+    order: Vec<Entity>,
+}
+
+fn build_order(mut clock: ResMut<TurnClock>, fighters: Query<(Entity, &Fighter)>) {
+    let mut rows: Vec<_> = fighters.iter().collect();
+    rows.sort_by(|left, right| {
+        right
+            .1
+            .speed
+            .cmp(&left.1.speed)
+            .then(left.1.tie_break.cmp(&right.1.tie_break))
+    });
+    clock.order = rows.into_iter().map(|(entity, _)| entity).collect();
+}
+```
+
+Spend points only after the cost check. `take_action` sets `end_requested`. `end_turn` refills points and advances the index only when that flag is set. Both systems mutably use `TurnClock` and `Fighter`, so `.chain()` is required or the flag and the points race.
+
+```rust
+#[derive(Component)]
+struct Fighter {
+    action_points: u32,
+}
+
+#[derive(Resource)]
+struct TurnClock {
+    order: Vec<Entity>,
+    index: usize,
+    round: u32,
+    end_requested: bool,
+}
+
+fn spend(cost: u32, fighter: &mut Fighter) -> bool {
+    if fighter.action_points < cost {
+        return false;
+    }
+    fighter.action_points -= cost;
+    true
+}
+
+fn take_action(mut clock: ResMut<TurnClock>, mut fighters: Query<&mut Fighter>) {
+    if clock.end_requested {
+        return;
+    }
+    let Some(&current) = clock.order.get(clock.index) else {
+        return;
+    };
+    let Ok(mut fighter) = fighters.get_mut(current) else {
+        return;
+    };
+    if spend(1, &mut fighter) {
+        clock.end_requested = true;
+    }
+}
+
+fn end_turn(mut clock: ResMut<TurnClock>, mut fighters: Query<&mut Fighter>) {
+    if !clock.end_requested || clock.order.is_empty() {
+        return;
+    }
+    let Some(&current) = clock.order.get(clock.index) else {
+        return;
+    };
+    if let Ok(mut fighter) = fighters.get_mut(current) {
+        fighter.action_points = 2;
+    }
+    clock.end_requested = false;
+    clock.index += 1;
+    if clock.index >= clock.order.len() {
+        clock.index = 0;
+        clock.round += 1;
+    }
+}
+
+pub struct TurnPlugin;
+
+impl Plugin for TurnPlugin {
+    fn build(&self, app: &mut App) {
+        app.add_systems(Update, (take_action, end_turn).chain());
+    }
+}
+```
 
 ## Expert Knowledge Delta
 
@@ -47,12 +188,14 @@ Borrow rule: two systems that both mutably query the same component must be orde
 
 | If you need | Do this | Do not |
 | --- | --- | --- |
-| Per-entity data | `Component` + `Query` | A Godot node script |
+| Per-entity data | `Component` + `Query` | A field stored outside the world |
 | App-wide config or clock | `Resource` | Copy the value onto every entity |
 | Stable simulation step | `FixedMain` and the `Fixed` clock | Tie simulation to raw frame `Update` |
 | Startup spawn | `Commands` in `Startup` | Spawn from a render system |
+| Initiative queue | `TurnClock` order built when the round opens | `States` or a sort on every action |
+| Spend then end | `take_action` then `end_turn` with `.chain()` | Two unordered systems writing `Fighter` and `TurnClock` |
 | Cross-system notice that is not shared state | Message or observer slot in `bevy-events-messaging` | A new event type invented in this file |
-| An API outside the documented set | Check the official docs first | A made-up crate or API |
+| An API outside the documented set | Check the official documentation | A made-up crate or API |
 
 Load [references/ecs-ownership.md](references/ecs-ownership.md) for the ownership table.
 
@@ -62,18 +205,15 @@ Load [references/ecs-ownership.md](references/ecs-ownership.md) for the ownershi
 - Do not mutably query the same component from two unordered systems. WHY: the schedule runs systems in parallel unless `.chain()` orders them.
 - Do not invent a physics, navigation, networking, or XR crate here. WHY: this skill only names documented Bevy crates and modules.
 
-- No Godot node, resource, or signal types for this mechanic. WHY: Bevy code stays idiomatic ECS and uses only documented Bevy APIs.
-
-- No Godot types in Bevy code. WHY: Bevy code stays idiomatic ECS and uses only documented Bevy APIs.
-- No invented APIs or unnamed third-party crates as the chosen solver. WHY: Bevy code stays idiomatic ECS and uses only documented Bevy APIs.
+- Do not sort initiative on every action. WHY: the queue is rebuilt when a round opens or a speed stat changes, so replays stay stable.
+- Do not use `bevy::state` as the initiative queue. WHY: states are app modes; the active entity is `TurnClock`.
+- No invented APIs or unnamed third-party crates as the chosen solver. WHY: this skill only names documented Bevy crates and modules.
 
 ## Reference
 
-docs.rs links use the unversioned `latest` permalink. The library pin on bevy-master stays **0.20.0**.
+Official links stay on unversioned `latest` pages. The library pin on bevy-master stays **0.20.0**.
 
 ### Official Documentation
-- [Migration guides](https://bevy.org/learn/migration-guides/introduction/) - Unversioned hop index.
-- [bevy crate](https://docs.rs/bevy/latest/bevy/) - API reference and Cargo feature list.
 - [Assets](https://bevy.org/assets/) - Official asset catalog. No third-party crate was selected.
 - [Examples](https://github.com/bevyengine/bevy/tree/latest/examples#examples) - Example tree on the `latest` branch.
 - [ECS](https://bevy.org/learn/quick-start/getting-started/ecs/) - `Component`, systems, `Query`, `Startup`, `Update`, and `.chain()`.
@@ -90,7 +230,7 @@ docs.rs links use the unversioned `latest` permalink. The library pin on bevy-ma
 
 #### Complements
 - [bevy-state-machines](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/bevy-state-machines/DOC.md) - Mode flags.
-- [godot-turn-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-turn-system/DOC.md) - Equivalent Godot skill.
+- [godot-turn-system](https://github.com/thedivergentai/Game-Dev-Agentic-Skills/blob/main/skills/godot-turn-system/DOC.md) - Godot package for turn order.
 
 #### Downstream / consumers
 - None yet.
