@@ -1,7 +1,7 @@
 {
   "source": "https://github.com/thedivergentai/GD-Agentic-Skills",
-  "commit": "002d004c50b865406e58b3ec86508adab926d7f4",
-  "version": "0.1.1+upstream.002d004",
+  "commit": "db004d74c40686ca2f7a35fe067b119a9cda593e",
+  "version": "0.1.1+upstream.db004d7",
   "skills": [
     "bevy-2d-animation",
     "bevy-3d-lighting",
@@ -73,6 +73,7 @@
     "bevy-project-foundations",
     "bevy-project-templates",
     "bevy-quest-system",
+    "bevy-rea",
     "bevy-rpg-stats",
     "bevy-save-load",
     "bevy-shaders",
@@ -85,6 +86,7 @@
     "bevy-ui-layout",
     "bevy-ui-text",
     "bevy-ui-theming",
+    "gdas-reader",
     "godot-2d-animation",
     "godot-2d-physics",
     "godot-3d-lighting",
@@ -167,6 +169,7 @@
     "godot-project-templates",
     "godot-quest-system",
     "godot-raycasting-queries",
+    "godot-rea",
     "godot-resource-data-patterns",
     "godot-rpg-stats",
     "godot-save-load-systems",

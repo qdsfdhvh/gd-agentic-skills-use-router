@@ -74,6 +74,7 @@ Choose the topic matching the current task, then read only its document. Broad t
 | [bevy-project-foundations](bevy-project-foundations/DOC.md) | Pins a Bevy 0.20 crate, dev-profile opt-level, and plugin boundaries before gameplay systems exist. |
 | [bevy-project-templates](bevy-project-templates/DOC.md) | Bevy ECS skill for project templates. |
 | [bevy-quest-system](bevy-quest-system/DOC.md) | Track Bevy 0.20 quest definitions in a Resource and per-party progress in a Component, advanced by Messages. |
+| [bevy-rea](bevy-rea/DOC.md) | Emit a Bevy 0.20 crate from a GDAS-reader evidence ledger. |
 | [bevy-rpg-stats](bevy-rpg-stats/DOC.md) | Bevy ECS skill for character stats. |
 | [bevy-save-load](bevy-save-load/DOC.md) | Persists a versioned Bevy Resource as RON when a SaveRequest exists. |
 | [bevy-shaders](bevy-shaders/DOC.md) | Bevy ECS skill for shaders. |
@@ -86,6 +87,7 @@ Choose the topic matching the current task, then read only its document. Broad t
 | [bevy-ui-layout](bevy-ui-layout/DOC.md) | Lays out Bevy HUD and menu nodes with Flexbox, CSS Grid, Button, and ImageNode. |
 | [bevy-ui-text](bevy-ui-text/DOC.md) | Bevy 0.20 UI and world text: Text, Text2d, TextSpan, TextFont, TextColor, TextLayout, TextShadow, Text2dShadow. |
 | [bevy-ui-theming](bevy-ui-theming/DOC.md) | Theme a Bevy HUD from one palette resource copied onto BackgroundColor, BorderColor, BoxShadow, and BackgroundGradient. |
+| [gdas-reader](gdas-reader/DOC.md) | GDAS-reader turns a source tree, web bundle, asset folder, WASM module, or PE/ELF file into an evidence ledger for godot-rea or bevy-rea. |
 | [godot-2d-animation](godot-2d-animation/DOC.md) | 2D animation in Godot using AnimatedSprite2D and skeletal cutout rigs. |
 | [godot-2d-physics](godot-2d-physics/DOC.md) | Godot 2D physics including collision layers/masks, Area2D triggers, raycasting, and PhysicsDirectSpaceState2D queries. |
 | [godot-3d-lighting](godot-3d-lighting/DOC.md) | Godot 3D lighting including DirectionalLight3D shadow cascades, OmniLight3D attenuation, SpotLight3D projectors, VoxelGI vs SDFGI, and LightmapGI baking. |
@@ -168,6 +170,7 @@ Choose the topic matching the current task, then read only its document. Broad t
 | [godot-project-templates](godot-project-templates/DOC.md) | Navigation skill for genre project scaffolds: pick platformer/RPG/FPS (or other genre) then load matching template scripts and route gameplay fill to godot-genre-* skills. |
 | [godot-quest-system](godot-quest-system/DOC.md) | Expert blueprint for quest  tracking systems (objectives, progress, rewards, branching chains) using Resource-based quests, signal-driven updates, and AutoLoad managers. |
 | [godot-raycasting-queries](godot-raycasting-queries/DOC.md) | Expert blueprint for physics queries using RayCast, ShapeCast, and DirectSpaceState. |
+| [godot-rea](godot-rea/DOC.md) | Emit a Godot 4.7 project from a GDAS-reader evidence ledger. |
 | [godot-resource-data-patterns](godot-resource-data-patterns/DOC.md) | Expert blueprint for data-oriented design using Resource/RefCounted classes (item databases, character stats, reusable data structures). |
 | [godot-rpg-stats](godot-rpg-stats/DOC.md) | Expert blueprint for RPG stat systems (attributes, leveling, modifiers, damage formulas) using Resource-based stats, stackable modifiers, and derived stat calculations. |
 | [godot-save-load-systems](godot-save-load-systems/DOC.md) | Expert blueprint for save/load systems using JSON/binary serialization, PERSIST group pattern, versioning, and migration. |
